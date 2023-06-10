@@ -1,0 +1,24 @@
+_id: req_baa989e78d9a4a4695bd2f89212de880
+type: Request
+parentId: fld_5c5e10ab7adb4ebcafa6ed5598b7c684
+modified: 1686390857453
+created: 1686390839267
+url: "{{ _.admin_host }}/subscriber-list"
+name: subscriber-list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686390839267
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

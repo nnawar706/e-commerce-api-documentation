@@ -1,0 +1,24 @@
+_id: req_3a0f922e8c6244379891722bbe10c5c0
+type: Request
+parentId: fld_bc4e58beabf04c40a72330875119abf0
+modified: 1686392075342
+created: 1686392048033
+url: "{{ _.admin_host }}/product-delete/8"
+name: product-delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686392048033
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

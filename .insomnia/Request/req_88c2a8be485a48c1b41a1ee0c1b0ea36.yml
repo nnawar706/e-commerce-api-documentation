@@ -1,0 +1,32 @@
+_id: req_88c2a8be485a48c1b41a1ee0c1b0ea36
+type: Request
+parentId: fld_bc4e58beabf04c40a72330875119abf0
+modified: 1686392013336
+created: 1686391770077
+url: "{{ _.admin_host }}/product-update/4"
+name: product-update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_9cb7462841e4468a9fb6640de864a5b6
+      name: discount_amount
+      value: "1100"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686391770077
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

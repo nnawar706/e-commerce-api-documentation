@@ -1,0 +1,24 @@
+_id: req_f3cd8e46ab944b0f83cbb0ba1b2ebcb7
+type: Request
+parentId: fld_5c5e10ab7adb4ebcafa6ed5598b7c684
+modified: 1686390900637
+created: 1686390877278
+url: "{{ _.admin_host }}/subscriber-delete/1"
+name: subscriber-delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686390877278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

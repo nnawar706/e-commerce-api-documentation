@@ -1,0 +1,76 @@
+_id: req_3c258285de2f4a0fa344574b360a3728
+type: Request
+parentId: fld_bc4e58beabf04c40a72330875119abf0
+modified: 1686391690177
+created: 1686390997181
+url: "{{ _.admin_host }}/product-store"
+name: product-store
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_6caf45518d1a4e62ad27e28f435623b8
+      name: name
+      value: Long Sleeve Gown
+      description: ""
+    - id: pair_900a763e66f5493481ab695bc463cdd9
+      name: thumbnail
+      value: Gown
+      description: ""
+    - id: pair_09548393bb084644bad5ab7baf68a171
+      name: category_id
+      value: "8"
+      description: ""
+    - id: pair_f231d8c485044d2694e481871e277cef
+      name: is_on_sell
+      value: "1"
+      description: ""
+    - id: pair_a846d134c6e3438591f8553d03d542ea
+      name: is_featured
+      value: "0"
+      description: ""
+    - id: pair_9caa77cf1441408fb7243305b96ea411
+      name: status
+      value: "1"
+      description: ""
+    - id: pair_5a7e135ff589425385a0278bfb40ca30
+      name: cost
+      value: "900"
+      description: ""
+    - id: pair_348953d3a6ca4b138157299646f52828
+      name: price
+      value: "1500"
+      description: ""
+    - id: pair_3eff03163bea49d482e75e8b63aab31f
+      name: weight
+      value: "0.4"
+      description: ""
+    - id: pair_305d47ab6e2941479bbf674386158a54
+      name: featured_image
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Documents/laravel_projects/ecommerce_epr/public/uploads/clients/documents/1768118031136158.png
+      disabled: true
+    - id: pair_b792aad73c324851a60601d2a5093f0c
+      name: description
+      value: This truly glamorous gown features a delicately beaded floral pattern
+        that cascades elegantly down the dress
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686390997181
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

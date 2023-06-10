@@ -1,0 +1,24 @@
+_id: req_adc0cdd684234e86953319fd3d2dbe55
+type: Request
+parentId: fld_bc4e58beabf04c40a72330875119abf0
+modified: 1686391758588
+created: 1686391737810
+url: "{{ _.admin_host }}/product-detail/1"
+name: product-detail
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686391737810
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

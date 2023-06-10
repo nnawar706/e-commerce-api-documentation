@@ -1,0 +1,34 @@
+_id: req_08377c81aa214bff937d2dbeacdd8e8a
+type: Request
+parentId: fld_a331d0fa10ba473d947b4e426dbc83e7
+modified: 1686390611402
+created: 1686390547403
+url: "{{ _.admin_host }}/sponsor-store"
+name: sponsor-store
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_84a5aeee243b486783373c2400c3ffbe
+      name: image
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Documents/laravel_projects/ecommerce_epr/public/uploads/clients/documents/1768118031136158.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686390547403
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

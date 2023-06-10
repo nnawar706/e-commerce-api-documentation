@@ -1,0 +1,24 @@
+_id: req_d66f7948600d46ec863b3541e3664158
+type: Request
+parentId: fld_bc4e58beabf04c40a72330875119abf0
+modified: 1686392107400
+created: 1686392088335
+url: "{{ _.admin_host }}/product-list-all"
+name: product-list-all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686392088335
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
