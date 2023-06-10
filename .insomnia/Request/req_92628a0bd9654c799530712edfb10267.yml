@@ -1,0 +1,24 @@
+_id: req_92628a0bd9654c799530712edfb10267
+type: Request
+parentId: fld_e89bec2999e448bbb47f343b763194df
+modified: 1686377451382
+created: 1686377418895
+url: "{{ _.admin_host }}/password-update"
+name: password-update
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.admin_token }}"
+  prefix: bearer
+metaSortKey: -1686377418895
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

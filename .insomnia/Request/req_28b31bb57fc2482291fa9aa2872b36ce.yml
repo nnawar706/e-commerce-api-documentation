@@ -1,0 +1,32 @@
+_id: req_28b31bb57fc2482291fa9aa2872b36ce
+type: Request
+parentId: fld_90bc151f80174b05b89203d8c5d0d2d1
+modified: 1686377869797
+created: 1686377784591
+url: "{{ _.admin_host }}/admin-update/2"
+name: admin-update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {"name":"Sub-Admin","email":"subadmin@admin.com",
+     "password":"123456","password_confirmation":"123456",
+     "phone":"01733456789","gender":"Male","address":"Bangladesh",
+    "description":"N/A"}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686377784591
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_6a042fd27f624f5e9a7c2f75889709aa
+type: Request
+parentId: fld_e89bec2999e448bbb47f343b763194df
+modified: 1686377404558
+created: 1686377327242
+url: "{{ _.admin_host }}/avatar-update"
+name: avatar-update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_78e93cdd8ad9468e88adb43eb2b9eefc
+      name: avatar
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-05
+        10-49-52.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686377327242
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

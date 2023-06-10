@@ -1,0 +1,10 @@
+_id: fld_b6c6fbdb13264640bf4fcc9a348fbd04
+type: RequestGroup
+parentId: wrk_5e8f7085ae4c4de491d99aab10515176
+modified: 1686377060923
+created: 1686199336627
+name: customer
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: 100

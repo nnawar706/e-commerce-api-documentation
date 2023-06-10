@@ -1,0 +1,18 @@
+_id: env_5c603245839a46d9a0bfa444a39861b0
+type: Environment
+parentId: env_6560e040efc87bb7cb0acf838b52dfc20160659d
+modified: 1686199488920
+created: 1686199361761
+name: Production
+data:
+  HOST: chemistsales.selopian.us
+  PORT: "443"
+  PROTOCOL: https
+dataPropertyOrder:
+  "&":
+    - HOST
+    - PORT
+    - PROTOCOL
+color: null
+isPrivate: false
+metaSortKey: 1686199361761

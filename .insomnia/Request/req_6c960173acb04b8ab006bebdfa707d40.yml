@@ -1,0 +1,31 @@
+_id: req_6c960173acb04b8ab006bebdfa707d40
+type: Request
+parentId: fld_90bc151f80174b05b89203d8c5d0d2d1
+modified: 1686379468162
+created: 1686379336330
+url: "{{ _.admin_host }}/pickup-address-store"
+name: pickup-address-store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {"name": "Softopia","phone": "01700000000","email": "selopia@selopia.us",
+     "country_id": 1,"division_id": 1,"district_id": 1,"upazila_id": 1,
+     "union_id": 1,"address": "House 1, Road 1, Block A, Section 1, Mirpur, Dhaka","postal_code": "1216"}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686379336330
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_6644af7f51104298a7d9c4ae4036a88c
+type: Request
+parentId: fld_68c714556ae44cf1952e3bfd9b7570dd
+modified: 1686377499297
+created: 1686377003521
+url: "{{ _.admin_host }}/clear-cache"
+name: clear cache
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: 250
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

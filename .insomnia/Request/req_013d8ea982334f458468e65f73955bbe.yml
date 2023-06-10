@@ -1,0 +1,24 @@
+_id: req_013d8ea982334f458468e65f73955bbe
+type: Request
+parentId: fld_31fb41ce6b824518bd60dcc129ddc713
+modified: 1686377060937
+created: 1686376893363
+url: "{{ _.admin_host }}/me"
+name: me
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_a2567c22d4274cffb0cb3552ac91aca6
+type: Request
+parentId: fld_31fb41ce6b824518bd60dcc129ddc713
+modified: 1686377060937
+created: 1686376964016
+url: "{{ _.admin_host }}/logout"
+name: logout
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

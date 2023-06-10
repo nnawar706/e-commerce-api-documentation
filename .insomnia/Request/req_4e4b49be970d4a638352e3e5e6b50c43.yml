@@ -1,0 +1,24 @@
+_id: req_4e4b49be970d4a638352e3e5e6b50c43
+type: Request
+parentId: fld_31fb41ce6b824518bd60dcc129ddc713
+modified: 1686378778858
+created: 1686376938362
+url: "{{ _.admin_host }}/refresh"
+name: refresh
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

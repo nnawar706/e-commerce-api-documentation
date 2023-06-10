@@ -1,0 +1,24 @@
+_id: req_776743c8557e460497da5d4b9f07a77e
+type: Request
+parentId: fld_90bc151f80174b05b89203d8c5d0d2d1
+modified: 1686377554577
+created: 1686377523415
+url: "{{ _.admin_host }}/admin-list"
+name: admin-list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686377523415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
