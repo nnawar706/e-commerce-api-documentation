@@ -1,0 +1,35 @@
+_id: req_d98187d93d8c4f2d9a33b8748de3d5a9
+type: Request
+parentId: fld_bf841fcf731346bf9747b09ff418c2e8
+modified: 1686390243256
+created: 1686390201789
+url: "{{ _.admin_host }}/banner-store"
+name: banner-store
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_6b55a4d759e6435ba5964c67c28c9ff1
+      name: image
+      value: ""
+      description: ""
+      type: file
+      multiline: true
+      fileName: /home/selopia/Documents/laravel_projects/ecommerce_epr/public/uploads/clients/documents/1768118031136158.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686390201789
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

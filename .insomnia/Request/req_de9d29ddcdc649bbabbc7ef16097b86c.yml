@@ -1,0 +1,24 @@
+_id: req_de9d29ddcdc649bbabbc7ef16097b86c
+type: Request
+parentId: fld_bf841fcf731346bf9747b09ff418c2e8
+modified: 1686389210362
+created: 1686389191427
+url: "{{ _.admin_host }}/banner-list"
+name: banner-list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686389191427
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

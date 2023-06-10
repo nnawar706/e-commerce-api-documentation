@@ -1,0 +1,32 @@
+_id: req_37a29ded9fa44b73b1155703d4fffd5d
+type: Request
+parentId: fld_bf841fcf731346bf9747b09ff418c2e8
+modified: 1686390332975
+created: 1686390285005
+url: "{{ _.admin_host }}/banner-update/1"
+name: banner-update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_7e6a6b4668bd4cd69bffd4c09d68b725
+      name: image
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686390285005
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
