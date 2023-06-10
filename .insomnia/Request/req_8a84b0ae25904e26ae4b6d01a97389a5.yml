@@ -1,0 +1,29 @@
+_id: req_8a84b0ae25904e26ae4b6d01a97389a5
+type: Request
+parentId: fld_f4a2d76b56604397ba467e3aa9ef030c
+modified: 1686381824793
+created: 1686381144996
+url: "{{ _.admin_host }}/user-update/1"
+name: user-update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: '{"name": "User","email": "user@user.com","phone": "01723456789","gender":
+    "Male"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686381144996
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

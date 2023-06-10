@@ -1,0 +1,24 @@
+_id: req_e3a619a6375b456a8970d6a4bc5aa450
+type: Request
+parentId: fld_f4a2d76b56604397ba467e3aa9ef030c
+modified: 1686381124216
+created: 1686381086467
+url: "{{ _.admin_host }}/user-detail/1"
+name: user-detail
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686381086467
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_f1baba7cc9d94aaab9f197044598ecc5
+type: Request
+parentId: fld_f4a2d76b56604397ba467e3aa9ef030c
+modified: 1686384304821
+created: 1686384274879
+url: "{{ _.admin_host }}/user-address-delete/3"
+name: user-address-delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686384274879
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
