@@ -1,18 +1,15 @@
-_id: req_89d2fbf32cdb45478d272e7f439f0f89
+_id: req_f4c142379cf84a1cbbb497cceb8db60e
 type: Request
-parentId: fld_f4a2d76b56604397ba467e3aa9ef030c
-modified: 1686385256997
-created: 1686383519442
-url: "{{ _.admin_host }}/user-address-update/1"
-name: user-address-update
+parentId: fld_089b20fdabdd495a8cd23805ba86725f
+modified: 1686388383878
+created: 1686388330784
+url: "{{ _.admin_host }}/sub-category-store"
+name: sub-category-store
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
-  text: >-
-    {"country_id":1,"division_id":1,"district_id":1,"sub_district_id":1,"union_id":1,
-
-    "address":"n/a","postal_code":"1209","is_default":1}
+  text: '{"name":"Something","category_id":8}'
 parameters: []
 headers:
   - name: Content-Type
@@ -21,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686383519442
+metaSortKey: -1686388330784
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,24 @@
+_id: req_8bec8e2a8c6248698adb462268ca3281
+type: Request
+parentId: fld_089b20fdabdd495a8cd23805ba86725f
+modified: 1686388418981
+created: 1686388395369
+url: "{{ _.admin_host }}/sub-category-detail/1"
+name: sub-category-detail
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686388395369
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
