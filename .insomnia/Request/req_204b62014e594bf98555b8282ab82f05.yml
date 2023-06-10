@@ -1,0 +1,37 @@
+_id: req_204b62014e594bf98555b8282ab82f05
+type: Request
+parentId: fld_46cdf34ad8cd4e0b801a88fbd96617d6
+modified: 1686388746243
+created: 1686388671019
+url: "{{ _.admin_host }}/brand-store"
+name: brand-store
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: name
+      value: Michael Kors
+      id: pair_d32d140d6c02434e902d37086595ddd1
+    - id: pair_348cd1414e4f480a9c7b747cb2c80b47
+      name: image
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Documents/laravel_projects/ecommerce_epr/public/uploads/clients/documents/1768118031136158.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686388671019
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

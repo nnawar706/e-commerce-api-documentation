@@ -1,0 +1,32 @@
+_id: req_182539e87e6a4808a094c2c948afb300
+type: Request
+parentId: fld_46cdf34ad8cd4e0b801a88fbd96617d6
+modified: 1686389023131
+created: 1686388956345
+url: "{{ _.admin_host }}/brand-update/8"
+name: brand-update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_1d162e8a6f9746b1bc98b657cf181395
+      name: name
+      value: Michael Kors
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686388956345
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

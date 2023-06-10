@@ -1,0 +1,24 @@
+_id: req_c0c8e68002d34a999c67ec64b2b936ce
+type: Request
+parentId: fld_46cdf34ad8cd4e0b801a88fbd96617d6
+modified: 1686389080271
+created: 1686389034022
+url: "{{ _.admin_host }}/brand-delete/5"
+name: brand-delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686389034022
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
