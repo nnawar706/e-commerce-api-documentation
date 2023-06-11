@@ -1,0 +1,24 @@
+_id: req_122669e60cfa4f6491ad2e23e11c9808
+type: Request
+parentId: fld_241d036d30574141a1ec4fa91a8acc0e
+modified: 1686392839315
+created: 1686392818789
+url: "{{ _.admin_host }}/promocode-delete/1"
+name: promocode-delete
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.admin_token }}"
+  prefix: bearer
+metaSortKey: -1686392818789
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

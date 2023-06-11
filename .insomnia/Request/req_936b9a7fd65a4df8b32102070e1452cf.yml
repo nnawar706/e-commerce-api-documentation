@@ -1,0 +1,28 @@
+_id: req_936b9a7fd65a4df8b32102070e1452cf
+type: Request
+parentId: fld_241d036d30574141a1ec4fa91a8acc0e
+modified: 1686392702369
+created: 1686392596178
+url: "{{ _.admin_host }}/promocode-store"
+name: promocode-store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"code":"SWEETSUMMER","discount":20}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686392596178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_61edd8ac8a8848a091b5c49d836ab9f4
+type: Request
+parentId: fld_2ba9df4493f048c087111557a9c5fea0
+modified: 1686461478672
+created: 1686461455974
+url: "{{ _.admin_host }}/billing-cart-delete/4"
+name: billing-cart-delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686461455974
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

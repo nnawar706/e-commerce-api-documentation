@@ -1,0 +1,24 @@
+_id: req_10b18230b43e4ddc85b4e4c723596d43
+type: Request
+parentId: fld_2ba9df4493f048c087111557a9c5fea0
+modified: 1686459550507
+created: 1686459309225
+url: "{{ _.admin_host }}/convert-billing-to-order/2?user_id=1"
+name: convert-billing-to-order
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686459309225
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

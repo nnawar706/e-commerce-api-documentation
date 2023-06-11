@@ -1,0 +1,24 @@
+_id: req_29168f9ba48a478fb0a3117cdbc8e5d0
+type: Request
+parentId: fld_2cd8bbd19b854f62ada64831c980d9c2
+modified: 1686458933998
+created: 1686458911147
+url: "{{ _.admin_host }}/admin-order"
+name: admin-order
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686458911147
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

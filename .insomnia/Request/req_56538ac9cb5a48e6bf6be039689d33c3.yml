@@ -1,0 +1,24 @@
+_id: req_56538ac9cb5a48e6bf6be039689d33c3
+type: Request
+parentId: fld_e2db3a0ce205422cb79ad9f74680a188
+modified: 1686461838261
+created: 1686461793472
+url: "{{ _.admin_host }}/order/invoice/4"
+name: order-invoice
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686461793472
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

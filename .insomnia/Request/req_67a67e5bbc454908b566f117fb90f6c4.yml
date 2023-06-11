@@ -1,0 +1,39 @@
+_id: req_67a67e5bbc454908b566f117fb90f6c4
+type: Request
+parentId: fld_2cd8bbd19b854f62ada64831c980d9c2
+modified: 1686458871187
+created: 1686393052410
+url: "{{ _.admin_host }}/admin-order"
+name: admin-order
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: products
+      value: '[{"id":2,"qty":1},{"id":4,"qty":1}]'
+      id: pair_8009168c0ba3478299cb76dd308c356d
+    - id: pair_de4d4fbdc7f4424abee2e2fd0128a8d3
+      name: user_id
+      value: "1"
+      description: ""
+    - id: pair_00801688ad9348378d25aeef616dc9a2
+      name: delivery_type
+      value: instant_delivery
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686393052410
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

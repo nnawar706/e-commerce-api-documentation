@@ -1,0 +1,24 @@
+_id: req_974afdc42c46400c9cc180f61ed9e233
+type: Request
+parentId: fld_2ba9df4493f048c087111557a9c5fea0
+modified: 1686459296117
+created: 1686459277100
+url: "{{ _.admin_host }}/billing-cart-list"
+name: billing-cart-list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686459277100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

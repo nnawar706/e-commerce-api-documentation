@@ -1,0 +1,24 @@
+_id: req_dfaa6803f3f34134939dbff679d40ced
+type: Request
+parentId: fld_2cd8bbd19b854f62ada64831c980d9c2
+modified: 1686392991854
+created: 1686392970770
+url: "{{ _.admin_host }}/shipping-method-list"
+name: shipping-method-list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686392970770
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

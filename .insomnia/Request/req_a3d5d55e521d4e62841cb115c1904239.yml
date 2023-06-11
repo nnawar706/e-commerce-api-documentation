@@ -1,0 +1,24 @@
+_id: req_a3d5d55e521d4e62841cb115c1904239
+type: Request
+parentId: fld_2cd8bbd19b854f62ada64831c980d9c2
+modified: 1686392960364
+created: 1686392935262
+url: "{{ _.admin_host }}/payment-method-list"
+name: payment-method-list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686392935262
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

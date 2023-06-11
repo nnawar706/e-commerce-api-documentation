@@ -1,0 +1,24 @@
+_id: req_5bd87f3441a14627a389fb12630379d3
+type: Request
+parentId: fld_e2db3a0ce205422cb79ad9f74680a188
+modified: 1686461986851
+created: 1686461946328
+url: "{{ _.admin_host }}/order/export/all-data?type=xlsx"
+name: order-export
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686461946328
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
