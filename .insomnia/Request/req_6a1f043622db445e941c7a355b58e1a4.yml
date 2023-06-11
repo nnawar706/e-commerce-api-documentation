@@ -1,7 +1,7 @@
 _id: req_6a1f043622db445e941c7a355b58e1a4
 type: Request
 parentId: fld_46cdf34ad8cd4e0b801a88fbd96617d6
-modified: 1686388781349
+modified: 1686474674432
 created: 1686388759801
 url: "{{ _.admin_host }}/brand-detail/8"
 name: brand-detail
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686388759801
+metaSortKey: 100
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

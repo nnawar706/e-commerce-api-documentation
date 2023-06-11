@@ -1,7 +1,7 @@
 _id: req_e068ad56669e4043bca8697ca8ec4546
 type: Request
 parentId: fld_127e084bd3be4c288a9f4b6793dbf5bf
-modified: 1686385151559
+modified: 1686474674433
 created: 1686384670274
 url: "{{ _.admin_host }}/category-store"
 name: category-store
@@ -28,7 +28,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686384670274
+metaSortKey: 400
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

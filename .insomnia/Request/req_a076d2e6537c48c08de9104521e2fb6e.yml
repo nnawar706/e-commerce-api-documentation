@@ -1,7 +1,7 @@
 _id: req_a076d2e6537c48c08de9104521e2fb6e
 type: Request
 parentId: fld_36a07636cc1c4a62be89fdfaaa4fcbbd
-modified: 1686467218172
+modified: 1686474674436
 created: 1686467134364
 url: "{{ _.admin_host }}/delivery-status-update"
 name: delivery-status-update
@@ -22,7 +22,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686467134364
+metaSortKey: 500
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

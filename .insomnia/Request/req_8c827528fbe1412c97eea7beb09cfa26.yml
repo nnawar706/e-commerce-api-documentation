@@ -1,7 +1,7 @@
 _id: req_8c827528fbe1412c97eea7beb09cfa26
 type: Request
 parentId: fld_36a07636cc1c4a62be89fdfaaa4fcbbd
-modified: 1686466764927
+modified: 1686474674436
 created: 1686466640213
 url: "{{ _.admin_host }}/terms-conditions"
 name: terms
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686466640213
+metaSortKey: 1000
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

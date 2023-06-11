@@ -1,7 +1,7 @@
 _id: req_e4625e75452340cca125da5e8f0a2ccc
 type: Request
 parentId: fld_f4a2d76b56604397ba467e3aa9ef030c
-modified: 1686381917364
+modified: 1686474674478
 created: 1686381855135
 url: "{{ _.admin_host }}/user-avatar-update/1"
 name: user-avatar-update
@@ -24,7 +24,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686381855135
+metaSortKey: 600
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

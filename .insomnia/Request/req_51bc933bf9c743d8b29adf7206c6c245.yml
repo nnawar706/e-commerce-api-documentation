@@ -1,7 +1,7 @@
 _id: req_51bc933bf9c743d8b29adf7206c6c245
 type: Request
 parentId: fld_127e084bd3be4c288a9f4b6793dbf5bf
-modified: 1686388066195
+modified: 1686474674433
 created: 1686386015552
 url: "{{ _.admin_host }}/category-reorder"
 name: category-reorder
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686386015552
+metaSortKey: 200
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_66a27d770fda40188cd47c1399c84b30
 type: Request
 parentId: fld_90bc151f80174b05b89203d8c5d0d2d1
-modified: 1686378860357
+modified: 1686474674428
 created: 1686378833897
 url: "{{ _.admin_host }}/pickup-address-list"
 name: pickup-address-list
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686378833897
+metaSortKey: 700
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

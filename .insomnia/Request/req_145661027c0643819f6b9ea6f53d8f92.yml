@@ -1,7 +1,7 @@
 _id: req_145661027c0643819f6b9ea6f53d8f92
 type: Request
 parentId: fld_7779792a6dac41d0a54ec04bb9ccf2ec
-modified: 1686466157129
+modified: 1686474674464
 created: 1686466138732
 url: "{{ _.admin_host }}/site-banner-list"
 name: site-banner-list
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686466138732
+metaSortKey: 0
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

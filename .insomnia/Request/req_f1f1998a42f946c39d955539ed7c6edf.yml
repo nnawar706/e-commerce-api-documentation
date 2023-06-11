@@ -1,7 +1,7 @@
 _id: req_f1f1998a42f946c39d955539ed7c6edf
 type: Request
 parentId: fld_5db5ab3f1a274a0782a1235eff60b42f
-modified: 1686469847156
+modified: 1686474674463
 created: 1686469824356
 url: "{{ _.admin_host }}/products/individual_report/1"
 name: product-report
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686469824356
+metaSortKey: 600
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

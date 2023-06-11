@@ -1,7 +1,7 @@
 _id: req_bdfd4a8a49cf4aac8a6235211d62787d
 type: Request
 parentId: fld_19402a7253d24301ba91270a62dc6cbb
-modified: 1686469537070
+modified: 1686474674429
 created: 1686469518498
 url: "{{ _.admin_host }}/attribute-detail/1"
 name: attribute-detail
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686469518498
+metaSortKey: 0
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

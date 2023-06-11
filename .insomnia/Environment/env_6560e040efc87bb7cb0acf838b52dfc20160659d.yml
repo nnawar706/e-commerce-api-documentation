@@ -1,17 +1,19 @@
 _id: env_6560e040efc87bb7cb0acf838b52dfc20160659d
 type: Environment
 parentId: wrk_5e8f7085ae4c4de491d99aab10515176
-modified: 1686469926418
+modified: 1686477148340
 created: 1686199315073
 name: Base Environment
 data:
+  host: http://192.168.68.128:8004/api
   admin_host: http://192.168.68.128:8004/api/admin
   user_host: http://192.168.68.128:8004/api/user
   admin_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xOTIuMTY4LjY4LjEyODo4MDA0XC9hcGlcL2FkbWluXC9yZWZyZXNoIiwiaWF0IjoxNjg2NDY4NTIzLCJleHAiOjE2ODY0NzM1MTEsIm5iZiI6MTY4NjQ2OTkxMSwianRpIjoiTDdwY1RlaFlSaTJQN3d6WSIsInN1YiI6MSwicHJ2IjoiZGY4ODNkYjk3YmQwNWVmOGZmODUwODJkNjg2YzQ1ZTgzMmU1OTNhOSJ9.e8YwH_IpSBXU5pLg4j0ypvZTyNymHl8Z70uRNB__Jpk
-  user_token: ""
+  user_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xOTIuMTY4LjY4LjEyODo4MDA0XC9hcGlcL3VzZXJcL3JlZnJlc2giLCJpYXQiOjE2ODY0NzUwNjcsImV4cCI6MTY4NjQ4MDcyOCwibmJmIjoxNjg2NDc3MTI4LCJqdGkiOiJKS0JVaVQ0OHNVd3N4VWx4Iiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.uqOtrQ2hJiS_3szKucw1T5eKyE836rFiWX5EXh9eX9E
   auth_token: XYdA0tA6g6THFiy0vKE4mTADrQJb7jdpiCLFQWDMKwHVPH4r3ZWTjmKzSSNevIfF
 dataPropertyOrder:
   "&":
+    - host
     - admin_host
     - user_host
     - admin_token

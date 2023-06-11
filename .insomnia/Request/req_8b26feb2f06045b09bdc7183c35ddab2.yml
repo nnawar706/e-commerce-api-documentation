@@ -1,7 +1,7 @@
 _id: req_8b26feb2f06045b09bdc7183c35ddab2
 type: Request
 parentId: fld_36a07636cc1c4a62be89fdfaaa4fcbbd
-modified: 1686467284516
+modified: 1686474674436
 created: 1686467253337
 url: "{{ _.admin_host }}/email_setting"
 name: email_setting
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686467253337
+metaSortKey: 600
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_88c2a8be485a48c1b41a1ee0c1b0ea36
 type: Request
 parentId: fld_bc4e58beabf04c40a72330875119abf0
-modified: 1686392013336
+modified: 1686474674448
 created: 1686391770077
 url: "{{ _.admin_host }}/product-update/4"
 name: product-update
@@ -22,7 +22,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686391770077
+metaSortKey: 600
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

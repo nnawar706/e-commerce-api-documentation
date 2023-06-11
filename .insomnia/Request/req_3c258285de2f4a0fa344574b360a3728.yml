@@ -1,7 +1,7 @@
 _id: req_3c258285de2f4a0fa344574b360a3728
 type: Request
 parentId: fld_bc4e58beabf04c40a72330875119abf0
-modified: 1686391690177
+modified: 1686474674448
 created: 1686390997181
 url: "{{ _.admin_host }}/product-store"
 name: product-store
@@ -66,7 +66,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686390997181
+metaSortKey: 500
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_d310dc0c101f443888f5ffcee35ff8a5
 type: Request
 parentId: fld_41492b9a205e4666bae2a97d6e25ab58
-modified: 1686462885309
+modified: 1686474674438
 created: 1686462843113
 url: "{{ _.admin_host }}/inventory/5"
 name: update stock
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686462843113
+metaSortKey: 200
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

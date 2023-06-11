@@ -1,7 +1,7 @@
 _id: req_0529851d92a64fcd93a2ddf6a2f60c23
 type: Request
 parentId: fld_bf841fcf731346bf9747b09ff418c2e8
-modified: 1686390362447
+modified: 1686474674430
 created: 1686390340504
 url: "{{ _.admin_host }}/banner-delete/1"
 name: banner-delete
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686390340504
+metaSortKey: 0
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

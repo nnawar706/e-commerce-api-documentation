@@ -1,7 +1,7 @@
 _id: req_fb5b318e72934db1abfcf6180e333de5
 type: Request
 parentId: fld_5db5ab3f1a274a0782a1235eff60b42f
-modified: 1686469809188
+modified: 1686474674463
 created: 1686469782924
 url: "{{ _.admin_host }}/users/most_purchased"
 name: most-purchased-users
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686469782924
+metaSortKey: 300
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
