@@ -1,0 +1,28 @@
+_id: req_447a4be53a654e2980dfc1ab826402e8
+type: Request
+parentId: fld_36a07636cc1c4a62be89fdfaaa4fcbbd
+modified: 1686466525834
+created: 1686466489302
+url: "{{ _.admin_host }}/general-setting-update"
+name: general-setting-update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686466489302
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

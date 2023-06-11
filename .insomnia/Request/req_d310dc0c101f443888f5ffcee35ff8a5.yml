@@ -1,0 +1,28 @@
+_id: req_d310dc0c101f443888f5ffcee35ff8a5
+type: Request
+parentId: fld_41492b9a205e4666bae2a97d6e25ab58
+modified: 1686462885309
+created: 1686462843113
+url: "{{ _.admin_host }}/inventory/5"
+name: update stock
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"quantity":60}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686462843113
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

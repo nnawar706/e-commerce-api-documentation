@@ -1,0 +1,28 @@
+_id: req_a2908a69482748878bc30f164a72cc86
+type: Request
+parentId: fld_8aec4de6192f4addbeca5486eb7a4386
+modified: 1686469259536
+created: 1686469064344
+url: "{{ _.admin_host }}/role-store"
+name: role-store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"name":"Manager","permissions":[4,7,10]}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686469064344
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

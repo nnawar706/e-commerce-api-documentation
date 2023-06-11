@@ -1,0 +1,28 @@
+_id: req_4c1ec615d3af47be9ca929bc23e0b08e
+type: Request
+parentId: fld_8aec4de6192f4addbeca5486eb7a4386
+modified: 1686469351496
+created: 1686469280025
+url: "{{ _.admin_host }}/role-update/4"
+name: role-update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: '{"name":"Manager"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686469046481.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

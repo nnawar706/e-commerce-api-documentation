@@ -1,0 +1,28 @@
+_id: req_bb20201bf5854d7bb034bca003ba51b5
+type: Request
+parentId: fld_19402a7253d24301ba91270a62dc6cbb
+modified: 1686469486402
+created: 1686469426718
+url: "{{ _.admin_host }}/attribute-store"
+name: attribute-store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"name":"new attribute","type":"new"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686469426718
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

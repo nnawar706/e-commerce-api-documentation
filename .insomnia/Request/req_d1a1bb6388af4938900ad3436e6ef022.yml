@@ -1,0 +1,38 @@
+_id: req_d1a1bb6388af4938900ad3436e6ef022
+type: Request
+parentId: fld_36a07636cc1c4a62be89fdfaaa4fcbbd
+modified: 1686468861006
+created: 1686467333712
+url: "{{ _.admin_host }}/email_setting/1"
+name: email_setting_update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {"mailer": "smtp",
+    		"host": "live.smtp.mailtrap.io",
+    		"port": 2525,
+    		"username": "Selopia",
+    		"password": "1234567890",
+    		"encryption": "tls",
+    		"from_address": "no-reply@selopia.com",
+    		"from_name": "Selopia",
+    		"admin_email_status": 1,
+    		"user_email_status": 1}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686467333712
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

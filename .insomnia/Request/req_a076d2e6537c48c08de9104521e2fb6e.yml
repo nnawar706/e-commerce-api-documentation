@@ -1,0 +1,32 @@
+_id: req_a076d2e6537c48c08de9104521e2fb6e
+type: Request
+parentId: fld_36a07636cc1c4a62be89fdfaaa4fcbbd
+modified: 1686467218172
+created: 1686467134364
+url: "{{ _.admin_host }}/delivery-status-update"
+name: delivery-status-update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_c3abc38cfb854747a4121c3061d94d04
+      name: delivery_status
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686467134364
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

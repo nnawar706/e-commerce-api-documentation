@@ -1,12 +1,10 @@
-_id: req_2feaa9e3415245efbc407503a02fd9d0
+_id: req_0092326c99fd4b169d39885fa0a44c4c
 type: Request
-parentId: fld_2cd8bbd19b854f62ada64831c980d9c2
-modified: 1686462135710
-created: 1686458951376
-url: "{{ _.admin_host
-  }}/delivery-charge?division_id=1&district_id=2&total_weight=3&total_price=250\
-  0"
-name: delivery-charge
+parentId: fld_5db5ab3f1a274a0782a1235eff60b42f
+modified: 1686469965385
+created: 1686469942253
+url: "{{ _.admin_host }}/products/category/total_orders"
+name: most-ordered-category
 description: ""
 method: GET
 body: {}
@@ -16,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686458951376
+metaSortKey: -1686469942253
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

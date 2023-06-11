@@ -1,0 +1,32 @@
+_id: req_55731f155f71423b90c35dec09bc63e8
+type: Request
+parentId: fld_36a07636cc1c4a62be89fdfaaa4fcbbd
+modified: 1686466632027
+created: 1686466579509
+url: "{{ _.admin_host }}/about-us-update"
+name: about-us-update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_f0c1662828f64dd680fe04b1f6fc0deb
+      name: description
+      value: hello world
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686466579509
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
