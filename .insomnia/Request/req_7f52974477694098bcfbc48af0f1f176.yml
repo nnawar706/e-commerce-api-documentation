@@ -1,0 +1,25 @@
+_id: req_7f52974477694098bcfbc48af0f1f176
+type: Request
+parentId: fld_c43c78e6f2f94839814d47c4459311a5
+modified: 1686474674481
+created: 1686473043806
+url: "{{ _.host }}/product-new"
+name: new-arrival
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5c11e8a1e8a84100b3e83264c0774d07
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

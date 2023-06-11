@@ -1,0 +1,29 @@
+_id: req_934b23f804694d77a467f7000e7fa92e
+type: Request
+parentId: fld_455e309f1cf54a91a377e168dc266faa
+modified: 1686474674481
+created: 1686473188998
+url: "{{ _.host }}/cart-store"
+name: cart-store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"product_id":1,"quantity":1,"total":15000,"user_unique_id":"6132768"}'
+parameters: []
+headers:
+  - id: pair_6d25d70037684341950a971a457e2d80
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

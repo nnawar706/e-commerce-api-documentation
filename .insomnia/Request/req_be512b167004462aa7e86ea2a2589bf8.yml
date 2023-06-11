@@ -1,0 +1,25 @@
+_id: req_be512b167004462aa7e86ea2a2589bf8
+type: Request
+parentId: fld_3455bbcd5fe64b6380df20b64582236a
+modified: 1686474674480
+created: 1686471639962
+url: "{{ _.host }}/brand"
+name: get all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ffca73654cb24a21b7dc8d45b9595b89
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

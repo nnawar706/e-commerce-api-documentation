@@ -1,0 +1,24 @@
+_id: req_2a000e17816f4da8bf59480574cbc4ad
+type: Request
+parentId: fld_0a28e60b4cdc48bc81b39c59cecfdb24
+modified: 1686477108683
+created: 1686477078584
+url: "{{ _.user_host }}/address-delete/2"
+name: address-delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.user_token }}"
+metaSortKey: -1686477078584
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

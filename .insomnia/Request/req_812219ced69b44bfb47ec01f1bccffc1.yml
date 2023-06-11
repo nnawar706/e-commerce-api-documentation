@@ -1,0 +1,33 @@
+_id: req_812219ced69b44bfb47ec01f1bccffc1
+type: Request
+parentId: fld_8ee237987da3435692548ac8042123bb
+modified: 1686475065616
+created: 1686475011454
+url: "{{ _.user_host }}/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_bb94fe96f5e741349ce8da31fff0565f
+      name: email
+      value: nnawar@gmail.com
+      description: ""
+    - id: pair_013cdfb6872b4b218de67ffab934fd2b
+      name: password
+      value: "123456"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1686475011454
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_30954a66aa2c47569d587d9a308494b0
+type: Request
+parentId: fld_c43c78e6f2f94839814d47c4459311a5
+modified: 1686474674481
+created: 1686473011092
+url: "{{ _.host }}/product-descount"
+name: discount
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_a7c3323c95df46f6916d09a7f4c1318f
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

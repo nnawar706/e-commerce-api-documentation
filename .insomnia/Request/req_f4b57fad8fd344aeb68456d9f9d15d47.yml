@@ -1,0 +1,25 @@
+_id: req_f4b57fad8fd344aeb68456d9f9d15d47
+type: Request
+parentId: fld_c43c78e6f2f94839814d47c4459311a5
+modified: 1686474674481
+created: 1686472879451
+url: "{{ _.host }}/product-all"
+name: get-all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_0e408c6a29f043939ab4e44a198f47c4
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

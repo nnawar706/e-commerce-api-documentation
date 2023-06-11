@@ -1,0 +1,32 @@
+_id: req_d11a4b2d750c46e8a894c7691e0c08c2
+type: Request
+parentId: fld_0a28e60b4cdc48bc81b39c59cecfdb24
+modified: 1686476857091
+created: 1686475931954
+url: "{{ _.user_host }}/address-update/5"
+name: address-update
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_d36b21d97ccb4b498de4afc3a6c6aaed
+      name: ""
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.user_token }}"
+metaSortKey: -1686475931954
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

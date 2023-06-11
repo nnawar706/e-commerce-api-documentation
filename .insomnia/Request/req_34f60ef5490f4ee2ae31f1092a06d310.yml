@@ -1,0 +1,48 @@
+_id: req_34f60ef5490f4ee2ae31f1092a06d310
+type: Request
+parentId: fld_a6acb5036eed4fbd80611545fa6d811f
+modified: 1686477919273
+created: 1686477630938
+url: "{{ _.user_host }}/order"
+name: order-store
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_f7506bc0f6914bea94536c542753bd38
+      name: payment_method_id
+      value: "1"
+      description: ""
+    - id: pair_d8d52c4b20b241b89489138e7703ff69
+      name: shipping_method_id
+      value: "1"
+      description: ""
+    - id: pair_5eeab9a831954a7dafc6b6385a5d0949
+      name: shipping_address_id
+      value: "5"
+      description: ""
+    - id: pair_85c8fc5196f84b4b941502aba772f9fb
+      name: shipping_phone
+      value: "01720147632"
+      description: ""
+    - id: pair_4b2dc104ef1f4d7dbce0f8ec52448cf3
+      name: ""
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.user_token }}"
+metaSortKey: -1686477630938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

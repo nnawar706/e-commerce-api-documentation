@@ -1,0 +1,25 @@
+_id: req_714baf082c97450daa324dd0fe57b380
+type: Request
+parentId: fld_3455bbcd5fe64b6380df20b64582236a
+modified: 1686474674480
+created: 1686472667684
+url: "{{ _.host }}/product-by-brand/1"
+name: filter-product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_e807eece813e4247b2067d7671518f1b
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_237fbb51a26e455e9afda01bf1427f0c
+type: Request
+parentId: fld_3b84415bbb53493eb9dbbe5005d2d444
+modified: 1686474674482
+created: 1686472319150
+url: "{{ _.host }}/product-by-subcategory/1"
+name: filter-product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5e09d95fe548421481183f1e8b3fe51e
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

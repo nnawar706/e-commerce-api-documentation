@@ -1,0 +1,25 @@
+_id: req_9f795f9055964a159c7813c6306bd933
+type: Request
+parentId: fld_674048a2814d4055845478af04ecb98a
+modified: 1686474674480
+created: 1686470844611
+url: "{{ _.host }}/union-list?sub_district_id=1"
+name: union-list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2f61ec41eb2d47fcbf66d359e0b85ce5
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

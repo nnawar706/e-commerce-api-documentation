@@ -1,0 +1,24 @@
+_id: req_a7027f4355444853b01672c148fb8a70
+type: Request
+parentId: fld_a6acb5036eed4fbd80611545fa6d811f
+modified: 1686478117734
+created: 1686478094776
+url: "{{ _.user_host }}/order-detail/10"
+name: order-detail
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.user_token }}"
+metaSortKey: -1686478094776
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

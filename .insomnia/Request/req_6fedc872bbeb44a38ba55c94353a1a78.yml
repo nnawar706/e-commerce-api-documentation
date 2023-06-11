@@ -1,0 +1,40 @@
+_id: req_6fedc872bbeb44a38ba55c94353a1a78
+type: Request
+parentId: fld_0a28e60b4cdc48bc81b39c59cecfdb24
+modified: 1686475373607
+created: 1686475304157
+url: "{{ _.user_host }}/password-update"
+name: password-update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_e6511e735c484c1ea94aa65c9e93f3ad
+      name: old_password
+      value: "123456"
+      description: ""
+    - id: pair_ed212a2956a544089304d8ec00afd7a8
+      name: password
+      value: "12345"
+      description: ""
+    - id: pair_015a8305f95a402a92655cedd64b384a
+      name: password_confirmation
+      value: "12345"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.user_token }}"
+metaSortKey: -1686475304157
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

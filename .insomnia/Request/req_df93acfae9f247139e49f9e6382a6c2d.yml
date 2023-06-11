@@ -1,0 +1,56 @@
+_id: req_df93acfae9f247139e49f9e6382a6c2d
+type: Request
+parentId: fld_8ee237987da3435692548ac8042123bb
+modified: 1686474997227
+created: 1686474790252
+url: "{{ _.user_host }}/register"
+name: register
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_c443569ce89c4701a57d8aeb18dc8e5e
+      name: name
+      value: Nafisa
+      description: ""
+    - id: pair_2f9a3119d5b245e283c4545effbe8fb3
+      name: email
+      value: nnawar@gmail.com
+      description: ""
+    - id: pair_477df64141104a35bf4ad7b72e5b7093
+      name: password
+      value: "123456"
+      description: ""
+    - id: pair_5ef172a8cecf457195fe4b8a5a81e3e4
+      name: phone
+      value: "01723232323"
+      description: ""
+    - id: pair_d1c8051af6be47d5a142866a0d3b304f
+      name: gender
+      value: Female
+      description: ""
+    - id: pair_f2e2cf32ac044a26a23ea7584daf1fb3
+      name: password_confirmation
+      value: "123456"
+      description: ""
+    - id: pair_657cb5b7a61744889dc17953d6bf9b1e
+      name: avatar
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-05
+        10-49-52.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1686474790252
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

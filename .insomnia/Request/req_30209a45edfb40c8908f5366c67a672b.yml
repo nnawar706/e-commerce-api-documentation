@@ -1,0 +1,25 @@
+_id: req_30209a45edfb40c8908f5366c67a672b
+type: Request
+parentId: fld_674048a2814d4055845478af04ecb98a
+modified: 1686474674480
+created: 1686470766062
+url: "{{ _.host }}/sub-district-list?district_id=1"
+name: sub-district-list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_0825b2f0be934607b3b5275aa1b3414e
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

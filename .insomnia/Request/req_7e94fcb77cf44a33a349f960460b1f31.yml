@@ -1,0 +1,34 @@
+_id: req_7e94fcb77cf44a33a349f960460b1f31
+type: Request
+parentId: fld_0a28e60b4cdc48bc81b39c59cecfdb24
+modified: 1686475420487
+created: 1686475383801
+url: "{{ _.user_host }}/avatar-update"
+name: avatar-update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_3e2653893c7842a88157bd483417a505
+      name: avatar
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Documents/laravel_projects/ecommerce_epr/public/uploads/clients/documents/1768118031136158.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.user_token }}"
+metaSortKey: -1686475383801
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

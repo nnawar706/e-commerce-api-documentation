@@ -1,0 +1,25 @@
+_id: req_0cb165f5bd13459c8182f878790ef924
+type: Request
+parentId: fld_674048a2814d4055845478af04ecb98a
+modified: 1686474674480
+created: 1686470690330
+url: "{{ _.host }}/district-list?division_id=1"
+name: district-list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_11dcc59c750640d4b14f19d272fc789e
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

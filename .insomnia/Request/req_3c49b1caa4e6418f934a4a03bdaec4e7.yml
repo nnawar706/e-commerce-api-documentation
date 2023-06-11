@@ -1,0 +1,56 @@
+_id: req_3c49b1caa4e6418f934a4a03bdaec4e7
+type: Request
+parentId: fld_0a28e60b4cdc48bc81b39c59cecfdb24
+modified: 1686475700797
+created: 1686475493135
+url: "{{ _.user_host }}/create-new-address"
+name: create-address
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_de1037837bff41d2ad1f89f03905daea
+      name: country_id
+      value: "1"
+      description: ""
+    - id: pair_2ea30cb554f14dee89a7a587d779071d
+      name: division_id
+      value: "2"
+      description: ""
+    - id: pair_925e8e6d86c342e0a2170a15d3d26a2a
+      name: district_id
+      value: "1"
+      description: ""
+    - id: pair_9938eaebe03f437291c47bf2a5ddb7a6
+      name: sub_district_id
+      value: "2"
+      description: ""
+    - id: pair_c9923a4cc4ec4f959aa03584a8177aaa
+      name: address
+      value: n/a
+      description: ""
+    - id: pair_f76823e51f144eff9ff378cd005f7c5e
+      name: postal_code
+      value: "1001"
+      description: ""
+    - id: pair_968f4c01b5734ecf90c3b0469de6c58f
+      name: is_default
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.user_token }}"
+metaSortKey: -1686475493135
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

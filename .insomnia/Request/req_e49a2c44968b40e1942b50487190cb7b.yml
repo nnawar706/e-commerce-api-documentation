@@ -1,0 +1,25 @@
+_id: req_e49a2c44968b40e1942b50487190cb7b
+type: Request
+parentId: fld_674048a2814d4055845478af04ecb98a
+modified: 1686474674480
+created: 1686470563225
+url: "{{ _.host }}/division-list?country_id=1"
+name: division-list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c23d31f8265f428bb20f7fbb29047f06
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

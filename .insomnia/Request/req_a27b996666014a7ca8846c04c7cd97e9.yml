@@ -1,0 +1,44 @@
+_id: req_a27b996666014a7ca8846c04c7cd97e9
+type: Request
+parentId: fld_a6acb5036eed4fbd80611545fa6d811f
+modified: 1686478433286
+created: 1686478292354
+url: "{{ _.user_host }}/user-product-review"
+name: user-product-review
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_0da97659636344838e67daba77823430
+      name: review
+      value: Expensive!!
+      description: ""
+    - id: pair_05046348340a413eaba273cf200f7e98
+      name: rating
+      value: "3"
+      description: ""
+    - id: pair_2e610ae15df44ff5acd0cf85b4c8c725
+      name: product_id
+      value: "1"
+      description: ""
+    - id: pair_c206776b536c48828dc32b5801c229fc
+      name: order_id
+      value: "10"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.user_token }}"
+metaSortKey: -1686478292354
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_0e6272f6a01f405a9f286ef29861c7ac
+type: Request
+parentId: fld_674048a2814d4055845478af04ecb98a
+modified: 1686474674479
+created: 1686470352961
+url: "{{ _.host }}/country-list"
+name: country-list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d2b1ecf3e88d43c093d798ba3c238cd8
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

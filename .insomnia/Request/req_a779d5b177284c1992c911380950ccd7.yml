@@ -1,0 +1,25 @@
+_id: req_a779d5b177284c1992c911380950ccd7
+type: Request
+parentId: fld_9fdbb9065040468480489fa5401e3cef
+modified: 1686474674481
+created: 1686471526762
+url: "{{ _.host }}/category"
+name: get-all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3b8518bce8b2437298b0c7291bbe896e
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
