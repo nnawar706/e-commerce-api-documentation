@@ -1,25 +1,25 @@
-_id: req_934b23f804694d77a467f7000e7fa92e
+_id: req_2a70adea82914864b41e060eaa65de04
 type: Request
 parentId: fld_455e309f1cf54a91a377e168dc266faa
-modified: 1686482301397
-created: 1686473188998
-url: "{{ _.host }}/cart-store"
-name: cart-store
+modified: 1686483675151
+created: 1686482188615
+url: "{{ _.host }}/cart-bulk-delete"
+name: cart-bulk-delete
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"product_id":2,"quantity":2,"total":3000,"user_unique_id":"6133768"}'
+  text: '{"ids":[6,7],"user_unique_id":"6133768"}'
 parameters: []
 headers:
-  - id: pair_6d25d70037684341950a971a457e2d80
+  - id: pair_cc4f54a85d294984aac11d3a3edfaf40
     name: Authorization
     value: "{{ _.auth_token }}"
     description: ""
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: 200
+metaSortKey: -1686482188615
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,15 +1,15 @@
-_id: req_ef6b3937bf9545ebbec3fdb5980c5790
+_id: req_84e941bfa54546a48e3258b6189e200f
 type: Request
-parentId: fld_0429e62244ba41eeb6a324a7e39469ea
-modified: 1686483642425
-created: 1686477162902
-url: "{{ _.user_host }}/cart-store"
-name: cart-store
+parentId: fld_f4a2d76b56604397ba467e3aa9ef030c
+modified: 1686568771315
+created: 1686568631613
+url: "{{ _.admin_host }}/user-address-bulk-delete"
+name: user-address-bulk-delete
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"product_id":2,"quantity":2,"total":3000}'
+  text: '{"ids":[2,4]}'
 parameters: []
 headers:
   - name: Content-Type
@@ -17,8 +17,8 @@ headers:
 authentication:
   type: bearer
   prefix: bearer
-  token: "{{ _.user_token }}"
-metaSortKey: -1686477162902
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686568631613
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

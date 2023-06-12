@@ -1,0 +1,32 @@
+_id: req_207aa755a6db41f286dfb096e2ef4064
+type: Request
+parentId: fld_0a28e60b4cdc48bc81b39c59cecfdb24
+modified: 1686479524513
+created: 1686479464797
+url: "{{ _.user_host }}/subscribe"
+name: subscribe
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_5b13d39bd2e8485d8a35428d3888206a
+      name: email
+      value: nnawar@gmail.com
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.user_token }}"
+metaSortKey: -1686479464797
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

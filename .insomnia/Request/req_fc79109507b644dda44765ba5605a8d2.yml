@@ -1,7 +1,7 @@
 _id: req_fc79109507b644dda44765ba5605a8d2
 type: Request
 parentId: fld_2ba9df4493f048c087111557a9c5fea0
-modified: 1686474674431
+modified: 1686485087003
 created: 1686459118281
 url: "{{ _.admin_host }}/billing-cart-store"
 name: billing-cart-store
@@ -9,7 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"discount":2.5,"products":[{"product_id":1,"quantity":1}]}'
+  text: '{"user_id":null,"discount":null,"products":[{"product_id":1,"quantity":1}]}'
 parameters: []
 headers:
   - name: Content-Type
