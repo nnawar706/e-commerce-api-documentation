@@ -1,15 +1,15 @@
-_id: req_fc79109507b644dda44765ba5605a8d2
+_id: req_08e0a634b35b446c9973dac85a995931
 type: Request
-parentId: fld_2ba9df4493f048c087111557a9c5fea0
-modified: 1686638135586
-created: 1686459118281
-url: "{{ _.admin_host }}/billing-cart-store"
-name: billing-cart-store
+parentId: fld_bc4e58beabf04c40a72330875119abf0
+modified: 1686639282464
+created: 1686636790314
+url: "{{ _.admin_host }}/product-bulk-delete"
+name: product-bulk-delete
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"user_id":1,"discount":null,"products":[{"product_id":8,"quantity":2}]}'
+  text: '{"ids":[3,6,7,8,11]}'
 parameters: []
 headers:
   - name: Content-Type
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 400
+metaSortKey: -1686636790314
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

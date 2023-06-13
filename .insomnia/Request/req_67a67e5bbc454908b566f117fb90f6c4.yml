@@ -1,7 +1,7 @@
 _id: req_67a67e5bbc454908b566f117fb90f6c4
 type: Request
 parentId: fld_2cd8bbd19b854f62ada64831c980d9c2
-modified: 1686474674445
+modified: 1686637346120
 created: 1686393052410
 url: "{{ _.admin_host }}/admin-order"
 name: admin-order
@@ -11,7 +11,7 @@ body:
   mimeType: multipart/form-data
   params:
     - name: products
-      value: '[{"id":2,"qty":1},{"id":4,"qty":1}]'
+      value: '[{"id":12,"qty":1},{"id":8,"qty":2}]'
       id: pair_8009168c0ba3478299cb76dd308c356d
     - id: pair_de4d4fbdc7f4424abee2e2fd0128a8d3
       name: user_id

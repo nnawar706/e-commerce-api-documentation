@@ -1,15 +1,15 @@
-_id: req_fc79109507b644dda44765ba5605a8d2
+_id: req_d7d24cf3c579441f9c302f8109d8bbf1
 type: Request
-parentId: fld_2ba9df4493f048c087111557a9c5fea0
-modified: 1686638135586
-created: 1686459118281
-url: "{{ _.admin_host }}/billing-cart-store"
-name: billing-cart-store
+parentId: fld_8d9ffd2821aa4fd8a65757e027ff7ef2
+modified: 1686640197865
+created: 1686640110706
+url: "{{ _.admin_host }}/expence-category-bulk-delete"
+name: expence-category-bulk-delete
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"user_id":1,"discount":null,"products":[{"product_id":8,"quantity":2}]}'
+  text: '{"ids":[1,2]}'
 parameters: []
 headers:
   - name: Content-Type
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 400
+metaSortKey: -1686640110706
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
