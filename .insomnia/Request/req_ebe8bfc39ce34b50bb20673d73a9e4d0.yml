@@ -1,0 +1,28 @@
+_id: req_ebe8bfc39ce34b50bb20673d73a9e4d0
+type: Request
+parentId: fld_a331d0fa10ba473d947b4e426dbc83e7
+modified: 1686634361998
+created: 1686634252688
+url: "{{ _.admin_host }}/sponsor-bulk-delete"
+name: sponsor-bulk-delete
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"ids":[1,2,3]}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686634252688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_5827732030284f89b6a2b8819301f87c
+type: Request
+parentId: fld_46cdf34ad8cd4e0b801a88fbd96617d6
+modified: 1686633374894
+created: 1686633347172
+url: "{{ _.admin_host }}/brand-bulk-delete"
+name: brand-bulk-delete
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"ids":[1,2]}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1686633347172
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
