@@ -1,7 +1,7 @@
 _id: req_df93acfae9f247139e49f9e6382a6c2d
 type: Request
 parentId: fld_8ee237987da3435692548ac8042123bb
-modified: 1686551022581
+modified: 1686739067765
 created: 1686474790252
 url: "{{ _.user_host }}/register"
 name: register
@@ -12,11 +12,11 @@ body:
   params:
     - id: pair_c443569ce89c4701a57d8aeb18dc8e5e
       name: name
-      value: Nawar
+      value: Nawer
       description: ""
     - id: pair_2f9a3119d5b245e283c4545effbe8fb3
       name: email
-      value: nawar@gmail.com
+      value: nawar123@gmail.com
       description: ""
     - id: pair_477df64141104a35bf4ad7b72e5b7093
       name: password
@@ -24,7 +24,7 @@ body:
       description: ""
     - id: pair_5ef172a8cecf457195fe4b8a5a81e3e4
       name: phone
-      value: "01723232323"
+      value: "01823232323"
       description: ""
     - id: pair_d1c8051af6be47d5a142866a0d3b304f
       name: gender
@@ -39,8 +39,8 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-05
-        10-49-52.png
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-14
+        11-11-50.png
 parameters: []
 headers:
   - name: Content-Type

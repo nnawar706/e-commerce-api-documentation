@@ -1,0 +1,25 @@
+_id: req_106a9defa673425eb09d666d31493b21
+type: Request
+parentId: fld_ae45d187c61d4aa58e0d6d01408de185
+modified: 1687593522840
+created: 1687592847187
+url: "{{ _.host }}/site/kpi_report"
+name: kpi-report
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_e22ea590d0734720a60611be93b0c7ce
+    name: Authorization
+    value: s2ys10sav175HakOg7FZeTvKb0a1e6wMjGOfSCgBDEsv99wRjWs6NZyWXEI6
+    description: ""
+authentication: {}
+metaSortKey: -1687592847187
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

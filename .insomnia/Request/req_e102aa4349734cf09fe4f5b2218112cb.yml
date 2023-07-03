@@ -1,9 +1,9 @@
 _id: req_e102aa4349734cf09fe4f5b2218112cb
 type: Request
 parentId: fld_127e084bd3be4c288a9f4b6793dbf5bf
-modified: 1686474674433
+modified: 1686999571690
 created: 1686385870384
-url: "{{ _.admin_host }}/category-update/1"
+url: "{{ _.admin_host }}/category-update/12"
 name: category-update
 description: ""
 method: POST
@@ -12,14 +12,15 @@ body:
   params:
     - id: pair_1d641993e36047cab189de5f5612e2b8
       name: name
-      value: Dress
+      value: Dress1
       description: ""
     - id: pair_c373b0be7a024098af77a77af5d496ad
       name: image
       value: ""
       description: ""
       type: file
-      fileName: /home/selopia/Documents/laravel_projects/ecommerce_epr/public/uploads/clients/documents/1768118031136158.png
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-14
+        11-11-50.png
 parameters: []
 headers:
   - name: Content-Type

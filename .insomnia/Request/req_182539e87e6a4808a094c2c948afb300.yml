@@ -1,9 +1,9 @@
 _id: req_182539e87e6a4808a094c2c948afb300
 type: Request
 parentId: fld_46cdf34ad8cd4e0b801a88fbd96617d6
-modified: 1686474674432
+modified: 1686985272661
 created: 1686388956345
-url: "{{ _.admin_host }}/brand-update/8"
+url: "{{ _.admin_host }}/brand-update/11"
 name: brand-update
 description: ""
 method: POST
@@ -14,6 +14,13 @@ body:
       name: name
       value: Michael Kors
       description: ""
+    - id: pair_2e14cfa604bb41dc803d0936800785c0
+      name: image
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-14
+        11-11-50.png
 parameters: []
 headers:
   - name: Content-Type

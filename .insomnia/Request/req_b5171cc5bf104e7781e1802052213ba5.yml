@@ -1,10 +1,10 @@
-_id: req_918dd300a2da42ae9b0ee367351c290f
+_id: req_b5171cc5bf104e7781e1802052213ba5
 type: Request
-parentId: fld_90bc151f80174b05b89203d8c5d0d2d1
-modified: 1686807967818
-created: 1686377740915
-url: "{{ _.admin_host }}/admin-detail/3"
-name: admin-detail
+parentId: fld_8aec4de6192f4addbeca5486eb7a4386
+modified: 1687248487572
+created: 1687248457094
+url: "{{ _.admin_host }}/permission-list"
+name: permission-list
 description: ""
 method: GET
 body: {}
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 300
+metaSortKey: -1687248457094
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

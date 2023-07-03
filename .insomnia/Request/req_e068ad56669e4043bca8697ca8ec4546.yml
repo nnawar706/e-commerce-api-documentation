@@ -1,7 +1,7 @@
 _id: req_e068ad56669e4043bca8697ca8ec4546
 type: Request
 parentId: fld_127e084bd3be4c288a9f4b6793dbf5bf
-modified: 1686474674433
+modified: 1686827066723
 created: 1686384670274
 url: "{{ _.admin_host }}/category-store"
 name: category-store
@@ -12,14 +12,15 @@ body:
   params:
     - id: pair_20142d47c3254936a5bc96199e0d77b1
       name: name
-      value: Jewellery
+      value: Jewellery2.0
       description: ""
     - id: pair_2e9dc54067084066b0a0857ad25b8251
       name: image
       value: ""
       description: ""
       type: file
-      fileName: /home/selopia/Documents/laravel_projects/ecommerce_epr/public/uploads/clients/documents/1768118031136158.png
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-14
+        11-11-50.png
 parameters: []
 headers:
   - name: Content-Type

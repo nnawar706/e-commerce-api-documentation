@@ -1,9 +1,9 @@
 _id: req_d310dc0c101f443888f5ffcee35ff8a5
 type: Request
 parentId: fld_41492b9a205e4666bae2a97d6e25ab58
-modified: 1686474674438
+modified: 1687343909151
 created: 1686462843113
-url: "{{ _.admin_host }}/inventory/5"
+url: "{{ _.admin_host }}/inventory/6"
 name: update stock
 description: ""
 method: POST

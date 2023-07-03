@@ -1,7 +1,7 @@
 _id: req_660472f95d314a1a94d8c753c76a6762
 type: Request
 parentId: fld_90bc151f80174b05b89203d8c5d0d2d1
-modified: 1686549712168
+modified: 1686821229862
 created: 1686549594942
 url: "{{ _.admin_host }}/admin-bulk-delete"
 name: admin-bulk-delete
@@ -9,7 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"ids":[1,3]}'
+  text: '{"ids":[8,9,10]}'
 parameters: []
 headers:
   - name: Content-Type

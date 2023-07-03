@@ -1,7 +1,7 @@
 _id: req_204b62014e594bf98555b8282ab82f05
 type: Request
 parentId: fld_46cdf34ad8cd4e0b801a88fbd96617d6
-modified: 1686474674432
+modified: 1686985169272
 created: 1686388671019
 url: "{{ _.admin_host }}/brand-store"
 name: brand-store
@@ -18,7 +18,9 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /home/selopia/Documents/laravel_projects/ecommerce_epr/public/uploads/clients/documents/1768118031136158.png
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-14
+        11-11-50.png
+      disabled: false
 parameters: []
 headers:
   - name: Content-Type

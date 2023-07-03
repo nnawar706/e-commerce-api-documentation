@@ -1,9 +1,9 @@
 _id: req_37a29ded9fa44b73b1155703d4fffd5d
 type: Request
 parentId: fld_bf841fcf731346bf9747b09ff418c2e8
-modified: 1686474674430
+modified: 1686988505238
 created: 1686390285005
-url: "{{ _.admin_host }}/banner-update/1"
+url: "{{ _.admin_host }}/banner-update/2"
 name: banner-update
 description: ""
 method: POST
@@ -13,6 +13,13 @@ body:
     - id: pair_7e6a6b4668bd4cd69bffd4c09d68b725
       name: image
       value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-14
+        11-11-50.png
+    - id: pair_6a412e0c09e14ae1a1a286dff529ff27
+      name: title
+      value: new arrival
       description: ""
 parameters: []
 headers:

@@ -1,22 +1,50 @@
 _id: req_48789be24eb948b586aceb875651f6a4
 type: Request
 parentId: fld_90bc151f80174b05b89203d8c5d0d2d1
-modified: 1686474674428
+modified: 1686821218844
 created: 1686377565333
 url: "{{ _.admin_host }}/admin-create"
 name: admin-create
 description: ""
 method: POST
 body:
-  mimeType: application/json
-  text: |-
-    {"name":"Sub-Admin","email":"sub-admin@admin.com",
-     "password":"123456","password_confirmation":"123456",
-     "phone":"01733456789","gender":"Male"}
+  mimeType: multipart/form-data
+  params:
+    - name: name
+      value: Sub-Adminv2
+      id: pair_aeca2cfb762d447688dfbe2c5a5efa13
+    - id: pair_e073702c739747f7b25e117de152b4b8
+      name: email
+      value: sub-admin3244@admin.com
+      description: ""
+    - id: pair_4eb69be170434ebe9b95279c38774ca1
+      name: password
+      value: "123456"
+      description: ""
+    - id: pair_e5d3d8ea554245a4a2bd42589a431f33
+      name: password_confirmation
+      value: "123456"
+      description: ""
+    - id: pair_35dff058ab7e4a668b722cf82359433e
+      name: phone
+      value: "01805412076"
+      description: ""
+    - id: pair_387fd8b1fb724f6e976694c647b8533d
+      name: gender
+      value: Male
+      description: ""
+    - id: pair_3e58ced1b500482db2f400c2dab28851
+      name: avatar
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-14
+        11-11-50.png
+      disabled: false
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
+    value: multipart/form-data
 authentication:
   type: bearer
   prefix: bearer

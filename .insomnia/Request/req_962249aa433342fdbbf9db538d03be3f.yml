@@ -1,15 +1,19 @@
 _id: req_962249aa433342fdbbf9db538d03be3f
 type: Request
 parentId: fld_bf841fcf731346bf9747b09ff418c2e8
-modified: 1686633707085
+modified: 1686989130779
 created: 1686633686641
 url: "{{ _.admin_host }}/banner-bulk-delete"
 name: banner-bulk-delete
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: '{"ids":[3,4,5,6,7,8,9,10,11,12]}'
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: bearer
   prefix: bearer

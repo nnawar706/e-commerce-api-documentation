@@ -1,15 +1,19 @@
 _id: req_92628a0bd9654c799530712edfb10267
 type: Request
 parentId: fld_e89bec2999e448bbb47f343b763194df
-modified: 1686474674451
+modified: 1686743069132
 created: 1686377418895
 url: "{{ _.admin_host }}/password-update"
 name: password-update
 description: ""
 method: PUT
-body: {}
+body:
+  mimeType: application/json
+  text: '{"old_password":"123456","password":"admin@123@","password_confirmation":"admin@123@"}'
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: bearer
   token: "{{ _.admin_token }}"

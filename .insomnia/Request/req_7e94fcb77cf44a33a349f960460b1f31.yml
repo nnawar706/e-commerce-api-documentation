@@ -1,7 +1,7 @@
 _id: req_7e94fcb77cf44a33a349f960460b1f31
 type: Request
 parentId: fld_0a28e60b4cdc48bc81b39c59cecfdb24
-modified: 1686475420487
+modified: 1686741723437
 created: 1686475383801
 url: "{{ _.user_host }}/avatar-update"
 name: avatar-update
@@ -15,7 +15,8 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /home/selopia/Documents/laravel_projects/ecommerce_epr/public/uploads/clients/documents/1768118031136158.png
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-14
+        11-11-50.png
 parameters: []
 headers:
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_447a4be53a654e2980dfc1ab826402e8
 type: Request
 parentId: fld_36a07636cc1c4a62be89fdfaaa4fcbbd
-modified: 1686474674436
+modified: 1687174138663
 created: 1686466489302
 url: "{{ _.admin_host }}/general-setting-update"
 name: general-setting-update
@@ -9,7 +9,36 @@ description: ""
 method: POST
 body:
   mimeType: multipart/form-data
-  params: []
+  params:
+    - id: pair_581061df5b784242b6f193fdae42ba3f
+      name: site_name
+      value: Women
+      description: ""
+    - id: pair_80c80d6b43af4aab87f8c02820d86cb3
+      name: site_email
+      value: women@abc.com
+      description: ""
+    - id: pair_4412e9e639db483c86661d65ad2d5a66
+      name: site_phone
+      value: "01898452136"
+      description: ""
+    - id: pair_9151976aa42e4358b7b9be7627d3cdae
+      name: site_address
+      value: fgwwry4
+      description: ""
+    - id: pair_a31af5d19a4a48b48397414f1c5be996
+      name: logo
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Documents/16870637232583.png
+    - id: pair_2fdd82ae4dae447b96fd4ba9695b5588
+      name: favicon
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-14
+        11-11-50.png
 parameters: []
 headers:
   - name: Content-Type

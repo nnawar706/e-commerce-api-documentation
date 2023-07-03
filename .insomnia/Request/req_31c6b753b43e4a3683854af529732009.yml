@@ -1,21 +1,21 @@
-_id: req_94b1892bbf27452c95dbf4797dfe2332
+_id: req_31c6b753b43e4a3683854af529732009
 type: Request
-parentId: fld_455e309f1cf54a91a377e168dc266faa
-modified: 1687425465719
-created: 1686474034348
-url: "{{ _.host }}/cart-list?user_unique_id=6133768"
-name: cart-list
+parentId: fld_cfdacfb3398c484ebcc3bef90fc8b2f6
+modified: 1688365904810
+created: 1688365870346
+url: "{{ _.host }}/general-setting"
+name: setting
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_dbe70df2d82f437fb0cbf7b2f008cc56
+  - id: pair_3ff49d3d29424857b2db687c1ece4cb5
     name: Authorization
     value: "{{ _.auth_token }}"
     description: ""
 authentication: {}
-metaSortKey: 100
+metaSortKey: -1688365870346
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

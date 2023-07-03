@@ -1,9 +1,9 @@
 _id: req_fc42d8e30f834dba9afcb87a6492c29c
 type: Request
 parentId: fld_a331d0fa10ba473d947b4e426dbc83e7
-modified: 1686474674468
+modified: 1686991370503
 created: 1686390660121
-url: "{{ _.admin_host }}/sponsor-update/1"
+url: "{{ _.admin_host }}/sponsor-update/6"
 name: sponsor-update
 description: ""
 method: POST
@@ -14,6 +14,13 @@ body:
       name: name
       value: StarTech
       description: ""
+    - id: pair_f43e336b5e7a466cadd6979d25902ec5
+      name: image
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-14
+        11-11-50.png
 parameters: []
 headers:
   - name: Content-Type

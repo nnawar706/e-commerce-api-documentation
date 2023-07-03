@@ -1,7 +1,7 @@
 _id: req_83805d7ec8db4b7ca6a2f7b017c884cc
 type: Request
 parentId: fld_e89bec2999e448bbb47f343b763194df
-modified: 1686474674451
+modified: 1686740241642
 created: 1686377066527
 url: "{{ _.admin_host }}/profile-update"
 name: profile-update
@@ -10,7 +10,7 @@ method: PUT
 body:
   mimeType: application/json
   text: '{"name":
-    "Admin","email":"admin@admin.com","phone":"01723987123","address":"Bangladesh","gender":"Female"}'
+    "Admin","email":"admin@admin.com","phone":"01723987125","address":"Bangladesh","gender":"Female"}'
 parameters: []
 headers:
   - name: Content-Type

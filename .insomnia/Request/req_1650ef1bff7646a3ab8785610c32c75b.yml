@@ -1,9 +1,9 @@
 _id: req_1650ef1bff7646a3ab8785610c32c75b
 type: Request
 parentId: fld_90bc151f80174b05b89203d8c5d0d2d1
-modified: 1686474674428
+modified: 1686820681445
 created: 1686377952150
-url: "{{ _.admin_host }}/admin-avatar-update/2"
+url: "{{ _.admin_host }}/admin-avatar-update/8"
 name: admin-avatar-update
 description: ""
 method: POST
@@ -15,7 +15,9 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /home/selopia/Documents/laravel_projects/ecommerce_epr/public/uploads/clients/documents/1768131685773379.png
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-06-14
+        11-11-50.png
+      disabled: false
 parameters: []
 headers:
   - name: Content-Type

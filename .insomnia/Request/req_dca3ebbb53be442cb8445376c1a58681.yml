@@ -1,9 +1,9 @@
 _id: req_dca3ebbb53be442cb8445376c1a58681
 type: Request
 parentId: fld_089b20fdabdd495a8cd23805ba86725f
-modified: 1686474674475
+modified: 1686983655829
 created: 1686388511828
-url: "{{ _.admin_host }}/sub-category-delete/61"
+url: "{{ _.admin_host }}/sub-category-delete/54"
 name: sub-category-delete
 description: ""
 method: DELETE
