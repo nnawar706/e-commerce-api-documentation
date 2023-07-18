@@ -1,22 +1,21 @@
-_id: req_a779d5b177284c1992c911380950ccd7
+_id: req_f02875760abd4f1e916614dd2d84ee45
 type: Request
-parentId: fld_9fdbb9065040468480489fa5401e3cef
-modified: 1689420215040
-created: 1686471526762
-url: "{{ _.host }}/category"
-name: get-all
+parentId: fld_cfdacfb3398c484ebcc3bef90fc8b2f6
+modified: 1688367146555
+created: 1688367114868
+url: "{{ _.host }}/subscribe"
+name: subscribe
 description: ""
-method: GET
+method: POST
 body: {}
 parameters: []
 headers:
-  - id: pair_3b8518bce8b2437298b0c7291bbe896e
+  - id: pair_5e3d1382aa274e439ea04aa73d3b165b
     name: Authorization
     value: "{{ _.auth_token }}"
     description: ""
-authentication:
-  type: bearer
-metaSortKey: 100
+authentication: {}
+metaSortKey: -1688367114868
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,37 @@
+_id: req_32585279a03e4b519fb22801cf884a43
+type: Request
+parentId: fld_5e7489304f3843c999ea897947aee3ef
+modified: 1689404513591
+created: 1689232132719
+url: "{{ _.user_host }}/wish-store"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_aa418f15d0b7435986fb73f85dca22f1
+      name: product_id
+      value: "7"
+      description: ""
+    - id: pair_4ce28a30fe994bedaf6bb2245705ace7
+      name: variant_id
+      value: "1"
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.user_token }}"
+metaSortKey: -1689232132719
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

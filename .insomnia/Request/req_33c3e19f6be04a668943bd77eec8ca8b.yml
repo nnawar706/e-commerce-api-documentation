@@ -1,16 +1,15 @@
-_id: req_936b9a7fd65a4df8b32102070e1452cf
+_id: req_33c3e19f6be04a668943bd77eec8ca8b
 type: Request
-parentId: fld_241d036d30574141a1ec4fa91a8acc0e
-modified: 1689423861177
-created: 1686392596178
-url: "{{ _.admin_host }}/promocode-store"
-name: promocode-store
+parentId: fld_5e7489304f3843c999ea897947aee3ef
+modified: 1689234272759
+created: 1689234220276
+url: "{{ _.user_host }}/wishlist-bulk-delete"
+name: bulk-delete
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"code":"SWEETSUMMER20","discount":20,"is_percent":1,"start_date":"2023-07-10
-    12:12:12","applied_to_all":0,"products":[6,7]}'
+  text: '{"ids":[3,4]}'
 parameters: []
 headers:
   - name: Content-Type
@@ -18,8 +17,8 @@ headers:
 authentication:
   type: bearer
   prefix: bearer
-  token: "{{ _.admin_token }}"
-metaSortKey: 300
+  token: "{{ _.user_token }}"
+metaSortKey: -1689234220276
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

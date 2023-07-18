@@ -1,7 +1,7 @@
 _id: req_a27b996666014a7ca8846c04c7cd97e9
 type: Request
 parentId: fld_a6acb5036eed4fbd80611545fa6d811f
-modified: 1686478433286
+modified: 1689576330031
 created: 1686478292354
 url: "{{ _.user_host }}/user-product-review"
 name: user-product-review
@@ -20,12 +20,17 @@ body:
       description: ""
     - id: pair_2e610ae15df44ff5acd0cf85b4c8c725
       name: product_id
-      value: "1"
+      value: "6"
       description: ""
     - id: pair_c206776b536c48828dc32b5801c229fc
       name: order_id
-      value: "10"
+      value: "20"
       description: ""
+    - id: pair_96e9069ffaa345bb90b51d15a8889619
+      name: multiple_image
+      value: ""
+      description: ""
+      disabled: false
 parameters: []
 headers:
   - name: Content-Type

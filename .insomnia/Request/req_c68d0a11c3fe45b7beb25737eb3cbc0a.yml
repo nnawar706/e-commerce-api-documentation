@@ -1,15 +1,19 @@
 _id: req_c68d0a11c3fe45b7beb25737eb3cbc0a
 type: Request
 parentId: fld_0429e62244ba41eeb6a324a7e39469ea
-modified: 1686477544409
+modified: 1689495909019
 created: 1686477513642
-url: "{{ _.user_host }}/cart-update/2"
+url: "{{ _.user_host }}/cart-update/19"
 name: cart-update
 description: ""
-method: POST
-body: {}
+method: PUT
+body:
+  mimeType: application/json
+  text: '{"quantity":5,"variant_id":3}'
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: bearer
   prefix: bearer

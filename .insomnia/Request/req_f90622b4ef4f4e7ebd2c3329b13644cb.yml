@@ -1,15 +1,15 @@
-_id: req_936b9a7fd65a4df8b32102070e1452cf
+_id: req_f90622b4ef4f4e7ebd2c3329b13644cb
 type: Request
 parentId: fld_241d036d30574141a1ec4fa91a8acc0e
-modified: 1689423861177
-created: 1686392596178
-url: "{{ _.admin_host }}/promocode-store"
-name: promocode-store
+modified: 1689425068969
+created: 1689424463865
+url: "{{ _.admin_host }}/promocode-update/8"
+name: update-promo
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
-  text: '{"code":"SWEETSUMMER20","discount":20,"is_percent":1,"start_date":"2023-07-10
+  text: '{"code":"SWEETSUMMER","discount":20,"is_percent":1,"start_date":"2023-08-10
     12:12:12","applied_to_all":0,"products":[6,7]}'
 parameters: []
 headers:
@@ -19,7 +19,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 300
+metaSortKey: -1689424463865
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,12 +1,12 @@
-_id: req_dca3ebbb53be442cb8445376c1a58681
+_id: req_871f59aafc1d411baad876306339e04d
 type: Request
-parentId: fld_089b20fdabdd495a8cd23805ba86725f
-modified: 1689074073104
-created: 1686388511828
-url: "{{ _.admin_host }}/sub-category-delete/1"
-name: sub-category-delete
+parentId: fld_bc4e58beabf04c40a72330875119abf0
+modified: 1689482275097
+created: 1689482254404
+url: "{{ _.admin_host }}/product/list/2.0"
+name: New Request
 description: ""
-method: DELETE
+method: GET
 body: {}
 parameters: []
 headers: []
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 0
+metaSortKey: -1689482254404
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

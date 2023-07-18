@@ -1,7 +1,7 @@
 _id: req_bb20201bf5854d7bb034bca003ba51b5
 type: Request
 parentId: fld_19402a7253d24301ba91270a62dc6cbb
-modified: 1686474674429
+modified: 1689590844649
 created: 1686469426718
 url: "{{ _.admin_host }}/attribute-store"
 name: attribute-store
@@ -9,7 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"name":"new attribute","type":"new"}'
+  text: '{"name":"Size","variants":["XXL","XL","Large","Medium","Small"]}'
 parameters: []
 headers:
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_3c258285de2f4a0fa344574b360a3728
 type: Request
 parentId: fld_bc4e58beabf04c40a72330875119abf0
-modified: 1687251251059
+modified: 1689484879826
 created: 1686390997181
 url: "{{ _.admin_host }}/product-store"
 name: product-store
@@ -14,14 +14,11 @@ body:
       name: name
       value: Hand Bag
       description: ""
-    - id: pair_900a763e66f5493481ab695bc463cdd9
-      name: thumbnail
-      value: Bag
-      description: ""
     - id: pair_09548393bb084644bad5ab7baf68a171
       name: category_id
       value: "2"
       description: ""
+      disabled: true
     - id: pair_f231d8c485044d2694e481871e277cef
       name: is_on_sell
       value: "1"

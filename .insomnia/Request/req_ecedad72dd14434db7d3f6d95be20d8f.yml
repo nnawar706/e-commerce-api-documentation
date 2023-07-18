@@ -1,10 +1,10 @@
-_id: req_dca3ebbb53be442cb8445376c1a58681
+_id: req_ecedad72dd14434db7d3f6d95be20d8f
 type: Request
-parentId: fld_089b20fdabdd495a8cd23805ba86725f
-modified: 1689074073104
-created: 1686388511828
-url: "{{ _.admin_host }}/sub-category-delete/1"
-name: sub-category-delete
+parentId: fld_5e7489304f3843c999ea897947aee3ef
+modified: 1689234081568
+created: 1689233910510
+url: "{{ _.user_host }}/wish-delete/3"
+name: delete
 description: ""
 method: DELETE
 body: {}
@@ -13,8 +13,8 @@ headers: []
 authentication:
   type: bearer
   prefix: bearer
-  token: "{{ _.admin_token }}"
-metaSortKey: 0
+  token: "{{ _.user_token }}"
+metaSortKey: -1689233910510
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

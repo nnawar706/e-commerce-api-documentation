@@ -1,7 +1,7 @@
 _id: req_34f60ef5490f4ee2ae31f1092a06d310
 type: Request
 parentId: fld_a6acb5036eed4fbd80611545fa6d811f
-modified: 1686477919273
+modified: 1689499811166
 created: 1686477630938
 url: "{{ _.user_host }}/order"
 name: order-store
@@ -27,8 +27,8 @@ body:
       value: "01720147632"
       description: ""
     - id: pair_4b2dc104ef1f4d7dbce0f8ec52448cf3
-      name: ""
-      value: ""
+      name: promo_code
+      value: jklmn21&
       description: ""
 parameters: []
 headers:

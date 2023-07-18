@@ -1,20 +1,20 @@
-_id: req_dca3ebbb53be442cb8445376c1a58681
+_id: req_978a56e836a7408580717d6cfd2afa8e
 type: Request
-parentId: fld_089b20fdabdd495a8cd23805ba86725f
-modified: 1689074073104
-created: 1686388511828
-url: "{{ _.admin_host }}/sub-category-delete/1"
-name: sub-category-delete
+parentId: fld_5e7489304f3843c999ea897947aee3ef
+modified: 1689232045852
+created: 1689232011018
+url: "{{ _.user_host }}/wish-list"
+name: get-auth-wish-list
 description: ""
-method: DELETE
+method: GET
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
   prefix: bearer
-  token: "{{ _.admin_token }}"
-metaSortKey: 0
+  token: "{{ _.user_token }}"
+metaSortKey: -1689232011018
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

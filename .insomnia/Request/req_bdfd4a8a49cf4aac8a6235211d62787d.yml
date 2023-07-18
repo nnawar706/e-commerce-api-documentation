@@ -1,9 +1,9 @@
 _id: req_bdfd4a8a49cf4aac8a6235211d62787d
 type: Request
 parentId: fld_19402a7253d24301ba91270a62dc6cbb
-modified: 1686474674429
+modified: 1689663257742
 created: 1686469518498
-url: "{{ _.admin_host }}/attribute-detail/1"
+url: "{{ _.admin_host }}/attribute-detail/9"
 name: attribute-detail
 description: ""
 method: GET

@@ -1,22 +1,21 @@
-_id: req_a779d5b177284c1992c911380950ccd7
+_id: req_3885c4292d0645ea9296f4edd256aec5
 type: Request
-parentId: fld_9fdbb9065040468480489fa5401e3cef
-modified: 1689420215040
-created: 1686471526762
-url: "{{ _.host }}/category"
-name: get-all
+parentId: fld_ae45d187c61d4aa58e0d6d01408de185
+modified: 1689661427164
+created: 1689661326639
+url: "{{ _.host }}/site/product/search-by-uuid?uuid=123"
+name: product-search
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_3b8518bce8b2437298b0c7291bbe896e
+  - id: pair_7cb39b7723c54c59b23a0d4c09ebb30d
     name: Authorization
     value: "{{ _.auth_token }}"
     description: ""
-authentication:
-  type: bearer
-metaSortKey: 100
+authentication: {}
+metaSortKey: -1689661326639
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

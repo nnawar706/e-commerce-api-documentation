@@ -1,9 +1,9 @@
 _id: req_6063f33d9e5c477bb3e48f41f3f24002
 type: Request
 parentId: fld_241d036d30574141a1ec4fa91a8acc0e
-modified: 1686474674455
+modified: 1689483600055
 created: 1686392709303
-url: "{{ _.admin_host }}/promocode-detail/1"
+url: "{{ _.admin_host }}/promocode-detail/88"
 name: promocode-detail
 description: ""
 method: GET
