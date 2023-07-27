@@ -1,0 +1,37 @@
+_id: req_34f91c567a5c4d3b89039841f85865fd
+type: Request
+parentId: fld_19402a7253d24301ba91270a62dc6cbb
+modified: 1690106626219
+created: 1690086639502
+url: "{{ _.admin_host }}/product-combination/55"
+name: attribute-combination-update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"price": 1650,
+    	"previous_price": 1000,
+    	"weight": 0.2,
+    	"cost": 1000,
+    	"quantity":45,
+    	"is_default": 1,
+    	"damage_count":0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1690086639502
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

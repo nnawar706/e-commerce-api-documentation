@@ -1,0 +1,30 @@
+_id: req_8044eb0539d74f12b5c0c11ad9a4b2ca
+type: Request
+parentId: fld_ae45d187c61d4aa58e0d6d01408de185
+modified: 1689839173052
+created: 1689668355773
+url: "{{ _.host }}/site/user/pending-orders"
+name: pending-orders
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"email":"nnawar706@gmail.com","password":"1234567"}'
+parameters: []
+headers:
+  - id: pair_3c2f959a185749bf9b8b2f3bb14282c4
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

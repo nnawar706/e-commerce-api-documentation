@@ -1,0 +1,28 @@
+_id: req_681fd1f17fb44445a3e9fa3d238640a4
+type: Request
+parentId: fld_19402a7253d24301ba91270a62dc6cbb
+modified: 1690109708797
+created: 1689841951928
+url: "{{ _.admin_host }}/attribute-variant-store/61"
+name: attribute-variant-store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"name":"Magenta"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1689841951928
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

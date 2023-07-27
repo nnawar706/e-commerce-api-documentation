@@ -1,0 +1,24 @@
+_id: req_f17c3f981c8a4546a1e824a0040ddfa9
+type: Request
+parentId: fld_0429e62244ba41eeb6a324a7e39469ea
+modified: 1690374204947
+created: 1690271753517
+url: "{{ _.user_host }}/delivery-charge/5"
+name: delivery-charge
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.user_token }}"
+metaSortKey: -1690271753517
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

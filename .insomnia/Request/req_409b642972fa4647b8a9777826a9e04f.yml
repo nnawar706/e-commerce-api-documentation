@@ -1,0 +1,24 @@
+_id: req_409b642972fa4647b8a9777826a9e04f
+type: Request
+parentId: fld_19402a7253d24301ba91270a62dc6cbb
+modified: 1690199828458
+created: 1690105978316
+url: "{{ _.admin_host }}/deactivate-product-combination/56"
+name: deactivate-combination
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1690105978316
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

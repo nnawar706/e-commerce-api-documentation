@@ -1,0 +1,28 @@
+_id: req_ada45f2f677a49fa8cddd6d760a2641e
+type: Request
+parentId: fld_19402a7253d24301ba91270a62dc6cbb
+modified: 1689843004374
+created: 1689842913406
+url: "{{ _.admin_host }}/update-attribute-variant/50"
+name: attribute-variant-update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: '{"name":"L"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1689842913406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

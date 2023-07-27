@@ -1,0 +1,24 @@
+_id: req_4745b202e3ea4c7e85b7257161d7c1d7
+type: Request
+parentId: fld_31fb41ce6b824518bd60dcc129ddc713
+modified: 1690193676400
+created: 1690193623102
+url: "{{ _.admin_host }}/dashboard"
+name: dashboard
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1690193623102
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

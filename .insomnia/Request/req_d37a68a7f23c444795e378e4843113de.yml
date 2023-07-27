@@ -1,0 +1,33 @@
+_id: req_d37a68a7f23c444795e378e4843113de
+type: Request
+parentId: fld_ae45d187c61d4aa58e0d6d01408de185
+modified: 1690176714375
+created: 1689672620479
+url: "{{ _.host }}/site/subscribe"
+name: subscribe
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"email":"nnawar706@gmail.com","messenger_psid":"132473443","subscription_type":1}'
+parameters: []
+headers:
+  - id: pair_d2b16e93be15468eb9d2bad47b905668
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+  - id: pair_5e748845771d4ed3967e880087f590d5
+    name: ""
+    value: ""
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

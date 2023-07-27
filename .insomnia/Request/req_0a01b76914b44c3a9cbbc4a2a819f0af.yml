@@ -1,0 +1,29 @@
+_id: req_0a01b76914b44c3a9cbbc4a2a819f0af
+type: Request
+parentId: fld_ae45d187c61d4aa58e0d6d01408de185
+modified: 1690184194950
+created: 1690183784331
+url: "{{ _.host }}/site/shop-review"
+name: shop-review
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"email":"nnawar706@gmail.com","review":"test review","rating":3}'
+parameters: []
+headers:
+  - id: pair_240d1f7be2194d248ac10fbbf7b03814
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690183784331
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

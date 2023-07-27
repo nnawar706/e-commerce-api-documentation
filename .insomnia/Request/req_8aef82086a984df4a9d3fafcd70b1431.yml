@@ -1,0 +1,24 @@
+_id: req_8aef82086a984df4a9d3fafcd70b1431
+type: Request
+parentId: fld_bc4e58beabf04c40a72330875119abf0
+modified: 1689839173107
+created: 1689836761494
+url: "{{ _.admin_host }}/product-image-delete/8"
+name: product-image-delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

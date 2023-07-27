@@ -1,0 +1,28 @@
+_id: req_30cfe5ff66df4dafa60679a3d732dff8
+type: Request
+parentId: fld_19402a7253d24301ba91270a62dc6cbb
+modified: 1689842528786
+created: 1689842373666
+url: "{{ _.admin_host }}/attribute-update/25"
+name: attribute-update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: '{"name": "Size"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.admin_token }}"
+metaSortKey: -1689842373666
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

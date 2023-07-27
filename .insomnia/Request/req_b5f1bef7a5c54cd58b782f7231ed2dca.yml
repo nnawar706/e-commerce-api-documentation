@@ -1,0 +1,31 @@
+_id: req_b5f1bef7a5c54cd58b782f7231ed2dca
+type: Request
+parentId: fld_ae45d187c61d4aa58e0d6d01408de185
+modified: 1690277474181
+created: 1690274538653
+url: "{{ _.host }}/site/track-order"
+name: track-order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {"order_number":"ORD-12327-10987623",
+     "messenger_psid": "6540709766020612"}
+parameters: []
+headers:
+  - id: pair_1388daacd1114f56bb94323cab6286f9
+    name: Authorization
+    value: "{{ _.auth_token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690274538653
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
