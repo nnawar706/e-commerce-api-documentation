@@ -1,7 +1,7 @@
 _id: req_bba52f516272439f9d51e1e8def804ce
 type: Request
 parentId: fld_2f418b612cc34f13866acce82ef68645
-modified: 1686640454895
+modified: 1689839173105
 created: 1686640325945
 url: "{{ _.admin_host }}/notification-bulk-delete"
 name: notification-bulk-delete
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686640325945
+metaSortKey: 0
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

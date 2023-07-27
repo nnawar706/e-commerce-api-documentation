@@ -1,7 +1,7 @@
 _id: req_8c7e07465c1548e1983df225b8cefee1
 type: Request
 parentId: fld_bf841fcf731346bf9747b09ff418c2e8
-modified: 1686987950264
+modified: 1689839173083
 created: 1686390253426
 url: "{{ _.admin_host }}/banner-detail/2"
 name: banner-detail
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 100
+metaSortKey: 200
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

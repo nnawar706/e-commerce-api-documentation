@@ -1,9 +1,9 @@
 _id: req_9f795f9055964a159c7813c6306bd933
 type: Request
 parentId: fld_674048a2814d4055845478af04ecb98a
-modified: 1686474674480
+modified: 1690262046280
 created: 1686470844611
-url: "{{ _.host }}/union-list?sub_district_id=1"
+url: "{{ _.host }}/asset/union-list?sub_district_id=1"
 name: union-list
 description: ""
 method: GET

@@ -1,7 +1,7 @@
 _id: req_43075f05a7494a32af7f5b34d151ee5d
 type: Request
 parentId: fld_089b20fdabdd495a8cd23805ba86725f
-modified: 1686474674475
+modified: 1689839173123
 created: 1686388428994
 url: "{{ _.admin_host }}/sub-category-update/61"
 name: sub-category-update
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 400
+metaSortKey: 500
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

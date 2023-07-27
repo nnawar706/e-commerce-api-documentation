@@ -1,7 +1,7 @@
 _id: req_dd1b51c8f55c4f79a6a2e45cf2f11c01
 type: Request
 parentId: fld_cfdacfb3398c484ebcc3bef90fc8b2f6
-modified: 1688365860447
+modified: 1689839173127
 created: 1688365804768
 url: "{{ _.host }}/banner"
 name: banner-list
@@ -16,7 +16,7 @@ headers:
     description: ""
 authentication:
   type: bearer
-metaSortKey: -1688365804768
+metaSortKey: 100
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

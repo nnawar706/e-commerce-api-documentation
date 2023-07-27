@@ -1,10 +1,10 @@
 _id: req_8cc8f734397348b5a59f93c9edfad5a3
 type: Request
 parentId: fld_c43c78e6f2f94839814d47c4459311a5
-modified: 1689568942222
+modified: 1690268244018
 created: 1689568764519
-url: "{{ _.host }}/product/search-by-uuid?uuid=D377117"
-name: product-uuid-search
+url: "{{ _.host }}/product/search-suggestion?name=pr"
+name: search
 description: ""
 method: GET
 body: {}
@@ -15,7 +15,7 @@ headers:
     value: "{{ _.auth_token }}"
     description: ""
 authentication: {}
-metaSortKey: -1689568764519
+metaSortKey: 800
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

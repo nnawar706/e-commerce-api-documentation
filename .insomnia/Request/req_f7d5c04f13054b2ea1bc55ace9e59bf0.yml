@@ -1,7 +1,7 @@
 _id: req_f7d5c04f13054b2ea1bc55ace9e59bf0
 type: Request
 parentId: fld_46cdf34ad8cd4e0b801a88fbd96617d6
-modified: 1686474674432
+modified: 1689839173088
 created: 1686388640752
 url: "{{ _.admin_host }}/brand-list"
 name: brand-list
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 200
+metaSortKey: 300
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

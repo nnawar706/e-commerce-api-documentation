@@ -1,9 +1,9 @@
 _id: req_0e6272f6a01f405a9f286ef29861c7ac
 type: Request
 parentId: fld_674048a2814d4055845478af04ecb98a
-modified: 1686474674479
+modified: 1690011431717
 created: 1686470352961
-url: "{{ _.host }}/country-list"
+url: "{{ _.host }}/asset/country-list"
 name: country-list
 description: ""
 method: GET

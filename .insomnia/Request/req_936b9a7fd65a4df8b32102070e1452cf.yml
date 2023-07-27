@@ -1,7 +1,7 @@
 _id: req_936b9a7fd65a4df8b32102070e1452cf
 type: Request
 parentId: fld_241d036d30574141a1ec4fa91a8acc0e
-modified: 1689423861177
+modified: 1689839173117
 created: 1686392596178
 url: "{{ _.admin_host }}/promocode-store"
 name: promocode-store
@@ -19,7 +19,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 300
+metaSortKey: 400
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

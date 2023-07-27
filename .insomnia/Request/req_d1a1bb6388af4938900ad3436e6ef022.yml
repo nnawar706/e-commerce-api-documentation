@@ -1,7 +1,7 @@
 _id: req_d1a1bb6388af4938900ad3436e6ef022
 type: Request
 parentId: fld_36a07636cc1c4a62be89fdfaaa4fcbbd
-modified: 1687246541493
+modified: 1689839173097
 created: 1686467333712
 url: "{{ _.admin_host }}/email_setting"
 name: email_setting_update

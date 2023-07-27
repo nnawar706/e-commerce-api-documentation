@@ -1,7 +1,7 @@
 _id: req_4e422bb3833d422a9db4eeeb1cf1fa99
 type: Request
 parentId: fld_8ee237987da3435692548ac8042123bb
-modified: 1686475113667
+modified: 1689839173131
 created: 1686475088868
 url: "{{ _.user_host }}/me"
 name: me
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.user_token }}"
-metaSortKey: -1686475088868
+metaSortKey: 200
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

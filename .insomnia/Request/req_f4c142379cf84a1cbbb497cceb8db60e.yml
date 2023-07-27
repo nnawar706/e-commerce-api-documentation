@@ -1,7 +1,7 @@
 _id: req_f4c142379cf84a1cbbb497cceb8db60e
 type: Request
 parentId: fld_089b20fdabdd495a8cd23805ba86725f
-modified: 1686474674475
+modified: 1689839173123
 created: 1686388330784
 url: "{{ _.admin_host }}/sub-category-store"
 name: sub-category-store
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 300
+metaSortKey: 400
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_fb3f9772a30349e1a95d66af9bdc982b
 type: Request
 parentId: fld_8d9ffd2821aa4fd8a65757e027ff7ef2
-modified: 1686474674435
+modified: 1689839173097
 created: 1686463117647
 url: "{{ _.admin_host }}/expence-category"
 name: expence-category
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 100
+metaSortKey: 200
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

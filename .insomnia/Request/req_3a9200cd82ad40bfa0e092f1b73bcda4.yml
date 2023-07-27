@@ -1,7 +1,7 @@
 _id: req_3a9200cd82ad40bfa0e092f1b73bcda4
 type: Request
 parentId: fld_bc4e58beabf04c40a72330875119abf0
-modified: 1686636779314
+modified: 1689839173107
 created: 1686636741397
 url: "{{ _.admin_host }}/product-review-bulk-delete"
 name: product-review-bulk-delete
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686636741397
+metaSortKey: 600
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

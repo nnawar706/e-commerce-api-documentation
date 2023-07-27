@@ -1,7 +1,7 @@
 _id: req_978a56e836a7408580717d6cfd2afa8e
 type: Request
 parentId: fld_5e7489304f3843c999ea897947aee3ef
-modified: 1689232045852
+modified: 1689839173132
 created: 1689232011018
 url: "{{ _.user_host }}/wish-list"
 name: get-auth-wish-list
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.user_token }}"
-metaSortKey: -1689232011018
+metaSortKey: 300
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

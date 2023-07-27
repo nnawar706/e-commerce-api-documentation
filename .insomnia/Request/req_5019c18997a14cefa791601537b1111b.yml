@@ -1,9 +1,9 @@
 _id: req_5019c18997a14cefa791601537b1111b
 type: Request
 parentId: fld_31fb41ce6b824518bd60dcc129ddc713
-modified: 1686734563180
+modified: 1690184703517
 created: 1686376434840
-url: "{{ _.admin_host }}/login"
+url: "{{ _.admin_host_server }}/login"
 name: login
 description: ""
 method: POST
@@ -14,7 +14,8 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
 metaSortKey: 0
 isPrivate: false
 settingStoreCookies: true

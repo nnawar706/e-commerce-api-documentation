@@ -1,7 +1,7 @@
 _id: req_6dac4c2a60ed460ab997dc460671a927
 type: Request
 parentId: fld_2f418b612cc34f13866acce82ef68645
-modified: 1686474674443
+modified: 1689839173105
 created: 1686464565272
 url: "{{ _.admin_host }}/notification-list"
 name: notification-list
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 100
+metaSortKey: 200
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

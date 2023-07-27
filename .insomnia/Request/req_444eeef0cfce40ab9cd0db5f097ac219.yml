@@ -1,7 +1,7 @@
 _id: req_444eeef0cfce40ab9cd0db5f097ac219
 type: Request
 parentId: fld_455e309f1cf54a91a377e168dc266faa
-modified: 1689494126520
+modified: 1689839173126
 created: 1686474142608
 url: "{{ _.host }}/cart-update/11"
 name: cart-update
@@ -19,7 +19,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: 300
+metaSortKey: 400
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

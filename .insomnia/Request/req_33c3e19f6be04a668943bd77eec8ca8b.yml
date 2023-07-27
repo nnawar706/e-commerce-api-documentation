@@ -1,7 +1,7 @@
 _id: req_33c3e19f6be04a668943bd77eec8ca8b
 type: Request
 parentId: fld_5e7489304f3843c999ea897947aee3ef
-modified: 1689234272759
+modified: 1689839173132
 created: 1689234220276
 url: "{{ _.user_host }}/wishlist-bulk-delete"
 name: bulk-delete
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.user_token }}"
-metaSortKey: -1689234220276
+metaSortKey: 100
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

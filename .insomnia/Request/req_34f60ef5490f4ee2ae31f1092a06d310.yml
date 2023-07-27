@@ -1,7 +1,7 @@
 _id: req_34f60ef5490f4ee2ae31f1092a06d310
 type: Request
 parentId: fld_a6acb5036eed4fbd80611545fa6d811f
-modified: 1689499811166
+modified: 1689839173131
 created: 1686477630938
 url: "{{ _.user_host }}/order"
 name: order-store
@@ -38,7 +38,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.user_token }}"
-metaSortKey: -1686477630938
+metaSortKey: 300
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

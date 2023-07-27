@@ -1,7 +1,7 @@
 _id: req_452630f6424c4f0ab0eb6d87eaefe86b
 type: Request
 parentId: fld_0429e62244ba41eeb6a324a7e39469ea
-modified: 1686477453038
+modified: 1690272081985
 created: 1686477426207
 url: "{{ _.user_host }}/cart-list"
 name: cart-list
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.user_token }}"
-metaSortKey: -1686477426207
+metaSortKey: 100
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,10 +1,10 @@
 _id: fld_19402a7253d24301ba91270a62dc6cbb
 type: RequestGroup
 parentId: fld_68c714556ae44cf1952e3bfd9b7570dd
-modified: 1686474674405
+modified: 1689839173048
 created: 1686469412117
-name: attributes
+name: products-attributes
 description: ""
 environment: {}
 environmentPropertyOrder: null
-metaSortKey: 200
+metaSortKey: 1700

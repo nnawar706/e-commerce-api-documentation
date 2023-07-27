@@ -1,7 +1,7 @@
 _id: req_7e94fcb77cf44a33a349f960460b1f31
 type: Request
 parentId: fld_0a28e60b4cdc48bc81b39c59cecfdb24
-modified: 1686741723437
+modified: 1689839173132
 created: 1686475383801
 url: "{{ _.user_host }}/avatar-update"
 name: avatar-update
@@ -25,7 +25,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.user_token }}"
-metaSortKey: -1686475383801
+metaSortKey: 500
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

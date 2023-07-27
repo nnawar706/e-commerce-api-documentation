@@ -1,7 +1,7 @@
 _id: req_77f4dc8c73144b178a8481dd4eb2cc6b
 type: Request
 parentId: fld_0429e62244ba41eeb6a324a7e39469ea
-modified: 1686483543998
+modified: 1689839173131
 created: 1686482100997
 url: "{{ _.user_host }}/cart-bulk-delete"
 name: cart-bulk-delete
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.user_token }}"
-metaSortKey: -1686482100997
+metaSortKey: 0
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

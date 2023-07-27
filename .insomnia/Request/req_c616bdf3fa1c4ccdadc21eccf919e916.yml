@@ -1,7 +1,7 @@
 _id: req_c616bdf3fa1c4ccdadc21eccf919e916
 type: Request
 parentId: fld_5db5ab3f1a274a0782a1235eff60b42f
-modified: 1689396680004
+modified: 1689839173121
 created: 1689396660429
 url: "{{ _.admin_host }}/wish-to-cart-ratio-chart"
 name: wish-to-cart-ratio-chart
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1689396660429
+metaSortKey: 700
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

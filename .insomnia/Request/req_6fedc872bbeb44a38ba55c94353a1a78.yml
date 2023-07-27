@@ -1,7 +1,7 @@
 _id: req_6fedc872bbeb44a38ba55c94353a1a78
 type: Request
 parentId: fld_0a28e60b4cdc48bc81b39c59cecfdb24
-modified: 1686743383283
+modified: 1689839173132
 created: 1686475304157
 url: "{{ _.user_host }}/password-update"
 name: password-update
@@ -30,7 +30,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.user_token }}"
-metaSortKey: -1686475304157
+metaSortKey: 700
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

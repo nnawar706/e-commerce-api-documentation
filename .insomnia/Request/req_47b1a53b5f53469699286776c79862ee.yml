@@ -1,7 +1,7 @@
 _id: req_47b1a53b5f53469699286776c79862ee
 type: Request
 parentId: fld_5db5ab3f1a274a0782a1235eff60b42f
-modified: 1686474674463
+modified: 1689839173121
 created: 1686469880253
 url: "{{ _.admin_host }}/yearly_sales_data"
 name: yearly-sale-data
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 700
+metaSortKey: 800
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

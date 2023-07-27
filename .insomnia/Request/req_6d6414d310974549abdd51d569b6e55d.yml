@@ -1,7 +1,7 @@
 _id: req_6d6414d310974549abdd51d569b6e55d
 type: Request
 parentId: fld_0a28e60b4cdc48bc81b39c59cecfdb24
-modified: 1686475486009
+modified: 1689839173132
 created: 1686475462143
 url: "{{ _.user_host }}/address-list"
 name: address-list
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.user_token }}"
-metaSortKey: -1686475462143
+metaSortKey: 300
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

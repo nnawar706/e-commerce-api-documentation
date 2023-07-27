@@ -1,7 +1,7 @@
 _id: req_08377c81aa214bff937d2dbeacdd8e8a
 type: Request
 parentId: fld_a331d0fa10ba473d947b4e426dbc83e7
-modified: 1686990696307
+modified: 1689839173122
 created: 1686390547403
 url: "{{ _.admin_host }}/sponsor-store"
 name: sponsor-store
@@ -25,7 +25,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 300
+metaSortKey: 400
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,9 +1,9 @@
 _id: req_3c258285de2f4a0fa344574b360a3728
 type: Request
 parentId: fld_bc4e58beabf04c40a72330875119abf0
-modified: 1689484879826
+modified: 1690364793006
 created: 1686390997181
-url: "{{ _.admin_host }}/product-store"
+url: "{{ _.admin_host_server }}/product-store"
 name: product-store
 description: ""
 method: POST
@@ -12,13 +12,13 @@ body:
   params:
     - id: pair_6caf45518d1a4e62ad27e28f435623b8
       name: name
-      value: Hand Bag
+      value: test product5
       description: ""
     - id: pair_09548393bb084644bad5ab7baf68a171
       name: category_id
       value: "2"
       description: ""
-      disabled: true
+      disabled: false
     - id: pair_f231d8c485044d2694e481871e277cef
       name: is_on_sell
       value: "1"
@@ -37,11 +37,11 @@ body:
       description: ""
     - id: pair_348953d3a6ca4b138157299646f52828
       name: price
-      value: "17000"
+      value: "1550"
       description: ""
     - id: pair_3eff03163bea49d482e75e8b63aab31f
       name: weight
-      value: "0.4"
+      value: "0.2"
       description: ""
     - id: pair_305d47ab6e2941479bbf674386158a54
       name: featured_image
@@ -57,11 +57,29 @@ body:
       description: ""
     - id: pair_42d40243ad584615bdfa77b871bee4fe
       name: sub_category_id
-      value: "1"
+      value: "7"
       description: ""
     - id: pair_b06442f805f74999aff2ed6447ee0cae
       name: brand_id
       value: "1"
+      description: ""
+    - id: pair_f60a72c89c6647e4ad41176681160429
+      name: quantity
+      value: "120"
+      description: ""
+      disabled: true
+    - id: pair_f96ca68250814a9aaab4926559a95494
+      name: thumbnail
+      value: "11"
+      description: ""
+      type: text
+      fileName: /home/selopia/Documents/laravel_projects/ecommerce_epr/public/uploads/users/document/16897548585000.png
+      multiline: false
+      disabled: true
+    - id: pair_dc1e0816149d476d92a953b79aa490dd
+      name: attribute_list
+      value: '[{"name":"color", "variants":["black","blue","red"]},{"name":"size",
+        "variants":["XL","L","M"]}]'
       description: ""
 parameters: []
 headers:
@@ -70,8 +88,8 @@ headers:
 authentication:
   type: bearer
   prefix: bearer
-  token: "{{ _.admin_token }}"
-metaSortKey: 500
+  token: "{{ _.admin_token_server }}"
+metaSortKey: 700
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

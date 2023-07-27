@@ -1,7 +1,7 @@
 _id: req_b5171cc5bf104e7781e1802052213ba5
 type: Request
 parentId: fld_8aec4de6192f4addbeca5486eb7a4386
-modified: 1687248487572
+modified: 1689839173121
 created: 1687248457094
 url: "{{ _.admin_host }}/permission-list"
 name: permission-list
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1687248457094
+metaSortKey: 0
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

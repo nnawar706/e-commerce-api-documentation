@@ -1,7 +1,7 @@
 _id: req_cb7a5e63e86d4e2cbbbe2e235b092786
 type: Request
 parentId: fld_127e084bd3be4c288a9f4b6793dbf5bf
-modified: 1686639163429
+modified: 1689839173090
 created: 1686569344410
 url: "{{ _.admin_host }}/category-bulk-delete"
 name: category-bulk-delete
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686569344410
+metaSortKey: 0
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

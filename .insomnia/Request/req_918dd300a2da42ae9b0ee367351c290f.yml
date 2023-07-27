@@ -1,7 +1,7 @@
 _id: req_918dd300a2da42ae9b0ee367351c290f
 type: Request
 parentId: fld_90bc151f80174b05b89203d8c5d0d2d1
-modified: 1686807967818
+modified: 1690191981072
 created: 1686377740915
 url: "{{ _.admin_host }}/admin-detail/3"
 name: admin-detail
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 300
+metaSortKey: 400
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

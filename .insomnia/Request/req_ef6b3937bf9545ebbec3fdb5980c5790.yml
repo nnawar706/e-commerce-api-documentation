@@ -1,15 +1,15 @@
 _id: req_ef6b3937bf9545ebbec3fdb5980c5790
 type: Request
 parentId: fld_0429e62244ba41eeb6a324a7e39469ea
-modified: 1689502359291
+modified: 1690203845056
 created: 1686477162902
-url: "{{ _.user_host }}/cart-store"
+url: "{{ _.user_host_server }}/cart-store"
 name: cart-store
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"product_id":6,"quantity":2,"variant_id":1}'
+  text: '{"product_combination_id":49,"quantity":2}'
 parameters: []
 headers:
   - name: Content-Type
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.user_token }}"
-metaSortKey: -1686477162902
+metaSortKey: 200
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

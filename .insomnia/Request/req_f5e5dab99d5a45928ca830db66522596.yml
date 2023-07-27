@@ -1,20 +1,25 @@
 _id: req_f5e5dab99d5a45928ca830db66522596
 type: Request
 parentId: fld_bc4e58beabf04c40a72330875119abf0
-modified: 1689484858331
+modified: 1690359077729
 created: 1686390964708
-url: "{{ _.admin_host }}/product-list"
+url: "{{ _.admin_host }}/product-list?per_page=2"
 name: product-list
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_0253578e2d5447fe95806ba4dd861374
+    name: admin_refresh_token
+    value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xOTIuMTY4LjY4LjEyODo4MDA0XC9hcGlcL2FkbWluXC9sb2dpbiIsImlhdCI6MTY4OTc2NTAyOSwiZXhwIjoxNjkyNDQzNDI5LCJuYmYiOjE2ODk3NjUwMjksImp0aSI6IlpaWmdFd0tqUjZ3RjBJc3YiLCJzdWIiOjEsInBydiI6ImRmODgzZGI5N2JkMDVlZjhmZjg1MDgyZDY4NmM0NWU4MzJlNTkzYTkiLCJyZWZyZXNoX3Rva2VuIjp0cnVlfQ.E37rqrfWU6rFbSvjBiwX2DdaC2_d-inl3uc4lfCRT6U
+    description: ""
+    disabled: true
 authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 200
+metaSortKey: 400
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

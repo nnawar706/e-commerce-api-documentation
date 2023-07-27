@@ -1,30 +1,29 @@
 _id: req_67a67e5bbc454908b566f117fb90f6c4
 type: Request
 parentId: fld_2cd8bbd19b854f62ada64831c980d9c2
-modified: 1686637346120
+modified: 1690366128043
 created: 1686393052410
 url: "{{ _.admin_host }}/admin-order"
 name: admin-order
 description: ""
 method: POST
 body:
-  mimeType: multipart/form-data
-  params:
-    - name: products
-      value: '[{"id":12,"qty":1},{"id":8,"qty":2}]'
-      id: pair_8009168c0ba3478299cb76dd308c356d
-    - id: pair_de4d4fbdc7f4424abee2e2fd0128a8d3
-      name: user_id
-      value: "1"
-      description: ""
-    - id: pair_00801688ad9348378d25aeef616dc9a2
-      name: delivery_type
-      value: instant_delivery
-      description: ""
+  mimeType: application/json
+  text: |-
+    {
+    	"user_id":1,
+    	"discount":15,
+    	"shipping_method_id": 1,
+    	"shipping_address_id": 1,
+    	"product_combinations":[
+    		{"combination_id":49,"quantity":2},
+    		{"combination_id":55,"quantity":1}
+    	]
+    }
 parameters: []
 headers:
   - name: Content-Type
-    value: multipart/form-data
+    value: application/json
 authentication:
   type: bearer
   prefix: bearer

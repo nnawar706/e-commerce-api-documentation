@@ -1,9 +1,9 @@
 _id: req_30209a45edfb40c8908f5366c67a672b
 type: Request
 parentId: fld_674048a2814d4055845478af04ecb98a
-modified: 1686474674480
+modified: 1690261896599
 created: 1686470766062
-url: "{{ _.host }}/sub-district-list?district_id=1"
+url: "{{ _.host }}/asset/sub-district-list?district_id=1"
 name: sub-district-list
 description: ""
 method: GET

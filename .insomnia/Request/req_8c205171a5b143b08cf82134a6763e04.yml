@@ -1,9 +1,9 @@
 _id: req_8c205171a5b143b08cf82134a6763e04
 type: Request
 parentId: fld_2cd8bbd19b854f62ada64831c980d9c2
-modified: 1686474674445
+modified: 1690366283123
 created: 1686462205671
-url: "{{ _.admin_host }}/order-detail/4"
+url: "{{ _.admin_host }}/order-detail/34"
 name: order-detail
 description: ""
 method: GET

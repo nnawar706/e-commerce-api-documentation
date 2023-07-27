@@ -1,9 +1,9 @@
 _id: req_e49a2c44968b40e1942b50487190cb7b
 type: Request
 parentId: fld_674048a2814d4055845478af04ecb98a
-modified: 1686474674480
+modified: 1690261230339
 created: 1686470563225
-url: "{{ _.host }}/division-list?country_id=1"
+url: "{{ _.host }}/asset/division-list?country_id=1"
 name: division-list
 description: ""
 method: GET

@@ -1,9 +1,9 @@
 _id: req_88c2a8be485a48c1b41a1ee0c1b0ea36
 type: Request
 parentId: fld_bc4e58beabf04c40a72330875119abf0
-modified: 1686474674448
+modified: 1689839173107
 created: 1686391770077
-url: "{{ _.admin_host }}/product-update/4"
+url: "{{ _.admin_host }}/product-update/19"
 name: product-update
 description: ""
 method: POST
@@ -11,9 +11,16 @@ body:
   mimeType: multipart/form-data
   params:
     - id: pair_9cb7462841e4468a9fb6640de864a5b6
-      name: discount_amount
-      value: "1100"
+      name: is_featured
+      value: "1"
       description: ""
+    - id: pair_779571bcbbf44484bb9051efb5cb12f2
+      name: featured_image
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-07-12
+        13-33-07.png
 parameters: []
 headers:
   - name: Content-Type
@@ -22,7 +29,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 600
+metaSortKey: 800
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

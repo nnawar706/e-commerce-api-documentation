@@ -1,7 +1,7 @@
 _id: req_a779d5b177284c1992c911380950ccd7
 type: Request
 parentId: fld_9fdbb9065040468480489fa5401e3cef
-modified: 1689420215040
+modified: 1689839173127
 created: 1686471526762
 url: "{{ _.host }}/category"
 name: get-all

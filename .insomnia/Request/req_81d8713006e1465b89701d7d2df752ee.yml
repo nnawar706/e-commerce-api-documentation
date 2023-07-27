@@ -1,7 +1,7 @@
 _id: req_81d8713006e1465b89701d7d2df752ee
 type: Request
 parentId: fld_127e084bd3be4c288a9f4b6793dbf5bf
-modified: 1686829897302
+modified: 1689839173090
 created: 1686385956913
 url: "{{ _.admin_host }}/category-delete/2"
 name: category-delete
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: 0
+metaSortKey: 100
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

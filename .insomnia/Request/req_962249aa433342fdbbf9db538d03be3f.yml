@@ -1,7 +1,7 @@
 _id: req_962249aa433342fdbbf9db538d03be3f
 type: Request
 parentId: fld_bf841fcf731346bf9747b09ff418c2e8
-modified: 1686989130779
+modified: 1689839173083
 created: 1686633686641
 url: "{{ _.admin_host }}/banner-bulk-delete"
 name: banner-bulk-delete
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1686633686641
+metaSortKey: 0
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,9 +1,9 @@
 _id: req_94b1892bbf27452c95dbf4797dfe2332
 type: Request
 parentId: fld_455e309f1cf54a91a377e168dc266faa
-modified: 1689491912008
+modified: 1690200575559
 created: 1686474034348
-url: "{{ _.host }}/cart-list?user_unique_id=6133768"
+url: "{{ _.host }}/cart-list?user_unique_id=CART-64be68789224b"
 name: cart-list
 description: ""
 method: GET
@@ -15,7 +15,7 @@ headers:
     value: "{{ _.auth_token }}"
     description: ""
 authentication: {}
-metaSortKey: 100
+metaSortKey: 200
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

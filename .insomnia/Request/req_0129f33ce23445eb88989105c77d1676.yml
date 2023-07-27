@@ -1,9 +1,9 @@
 _id: req_0129f33ce23445eb88989105c77d1676
 type: Request
 parentId: fld_c43c78e6f2f94839814d47c4459311a5
-modified: 1686474674481
+modified: 1690270603621
 created: 1686472975228
-url: "{{ _.host }}/product-global-review"
+url: "{{ _.host }}/product-reviews/94"
 name: reviews
 description: ""
 method: GET
@@ -15,7 +15,7 @@ headers:
     value: "{{ _.auth_token }}"
     description: ""
 authentication: {}
-metaSortKey: 800
+metaSortKey: 900
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

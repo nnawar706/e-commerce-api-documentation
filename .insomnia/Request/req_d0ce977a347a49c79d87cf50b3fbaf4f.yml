@@ -1,7 +1,7 @@
 _id: req_d0ce977a347a49c79d87cf50b3fbaf4f
 type: Request
 parentId: fld_19402a7253d24301ba91270a62dc6cbb
-modified: 1689663221899
+modified: 1689839173109
 created: 1689663161789
 url: "{{ _.admin_host }}/attribute-delete/9"
 name: attribute-delete
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.admin_token }}"
-metaSortKey: -1689663161789
+metaSortKey: 0
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

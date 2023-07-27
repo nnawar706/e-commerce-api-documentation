@@ -1,7 +1,7 @@
 _id: req_924033003a1447ab937da9bf80b2f5fb
 type: Request
 parentId: fld_41492b9a205e4666bae2a97d6e25ab58
-modified: 1686474674438
+modified: 1689839173105
 created: 1686462799237
 url: "{{ _.admin_host }}/inventory"
 name: inventory

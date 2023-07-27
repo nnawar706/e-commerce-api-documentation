@@ -1,9 +1,9 @@
 _id: req_f1575ec0a6c44f74a7d4c9e181c0782b
 type: Request
 parentId: fld_c43c78e6f2f94839814d47c4459311a5
-modified: 1686474674481
+modified: 1690284711764
 created: 1686472836455
-url: "{{ _.host }}/product-filter?name=pr"
+url: "{{ _.host }}/product-filter?per_page=5"
 name: filter
 description: ""
 method: GET
