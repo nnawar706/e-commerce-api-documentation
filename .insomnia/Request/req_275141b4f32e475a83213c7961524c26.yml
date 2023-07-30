@@ -1,15 +1,15 @@
-_id: req_96332b0239f544f59eb0712cb34fe559
+_id: req_275141b4f32e475a83213c7961524c26
 type: Request
-parentId: fld_5e7489304f3843c999ea897947aee3ef
-modified: 1690437149469
-created: 1689247075714
-url: "{{ _.user_host }}/convert-to-cart"
-name: add-to-cart
+parentId: fld_a6acb5036eed4fbd80611545fa6d811f
+modified: 1690446763254
+created: 1690446677080
+url: "{{ _.user_host }}/add-promo"
+name: add-promo
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"ids":[9,10,11]}'
+  text: '{"promo_code": "SWEETSUMMER20"}'
 parameters: []
 headers:
   - name: Content-Type
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.user_token }}"
-metaSortKey: 0
+metaSortKey: -1690446677080
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

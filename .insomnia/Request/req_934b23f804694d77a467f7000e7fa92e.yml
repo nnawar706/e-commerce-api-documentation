@@ -1,7 +1,7 @@
 _id: req_934b23f804694d77a467f7000e7fa92e
 type: Request
 parentId: fld_455e309f1cf54a91a377e168dc266faa
-modified: 1690200282514
+modified: 1690696429597
 created: 1686473188998
 url: "{{ _.host }}/cart-store"
 name: cart-store
@@ -9,7 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"product_combination_id":55,"quantity":2,"user_unique_id":"CART-64be68789224b"}'
+  text: '{"product_combination_id":55,"quantity":2}'
 parameters: []
 headers:
   - id: pair_6d25d70037684341950a971a457e2d80

@@ -1,7 +1,7 @@
 _id: req_aaa09342069b4d7d81356310452d7277
 type: Request
 parentId: fld_f4a2d76b56604397ba467e3aa9ef030c
-modified: 1689839173124
+modified: 1690700272732
 created: 1686382776812
 url: "{{ _.admin_host }}/user-address-create/1"
 name: user-address-create
@@ -9,10 +9,9 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
-    {"country_id":1,"division_id":3,"district_id":3,"sub_district_id":1,"union_id":1,
-
-    "address":"n/a","postal_code":"1208","is_default":0}
+  text: |-
+    {"upazila_id":29,"phone_no":"01723981234",
+    "address":"n/a","postal_code":"1208","is_default":1}
 parameters: []
 headers:
   - name: Content-Type

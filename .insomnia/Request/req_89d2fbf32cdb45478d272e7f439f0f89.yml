@@ -1,7 +1,7 @@
 _id: req_89d2fbf32cdb45478d272e7f439f0f89
 type: Request
 parentId: fld_f4a2d76b56604397ba467e3aa9ef030c
-modified: 1689839173124
+modified: 1690700536938
 created: 1686383519442
 url: "{{ _.admin_host }}/user-address-update/2"
 name: user-address-update
@@ -9,10 +9,9 @@ description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: >-
-    {"country_id":1,"division_id":1,"district_id":1,"sub_district_id":1,"union_id":1,
-
-    "address":"n/a","postal_code":"1209","is_default":1}
+  text: |-
+    {"upazila_id":1,"union_id":1,"address":"n/a","postal_code":"1209",
+     "is_default":1,"phone_no":"01323456789"}
 parameters: []
 headers:
   - name: Content-Type

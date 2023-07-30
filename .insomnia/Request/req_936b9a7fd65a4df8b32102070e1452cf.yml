@@ -1,7 +1,7 @@
 _id: req_936b9a7fd65a4df8b32102070e1452cf
 type: Request
 parentId: fld_241d036d30574141a1ec4fa91a8acc0e
-modified: 1689839173117
+modified: 1690443528101
 created: 1686392596178
 url: "{{ _.admin_host }}/promocode-store"
 name: promocode-store
@@ -9,8 +9,22 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: '{"code":"SWEETSUMMER20","discount":20,"is_percent":1,"start_date":"2023-07-10
-    12:12:12","applied_to_all":0,"products":[6,7]}'
+  text: |-
+    {
+    	"title": "Summer Offer!",
+    	"code":"SWEETSUMMER20",
+    	"discount":15,
+    	"is_percent":1,
+    	"start_date":"2023-07-27",
+    	"expiration":1,
+    	"end_date":"2023-09-27",
+    	"max_usage": 1,
+    	"max_num_users": 1,
+    	"is_global_user":0,
+    	"is_global_product":0,
+    	"products":[94,95,96],
+    	"users":[1,4]
+    }
 parameters: []
 headers:
   - name: Content-Type

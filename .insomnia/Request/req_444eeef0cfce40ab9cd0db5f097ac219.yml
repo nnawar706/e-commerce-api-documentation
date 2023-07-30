@@ -1,15 +1,15 @@
 _id: req_444eeef0cfce40ab9cd0db5f097ac219
 type: Request
 parentId: fld_455e309f1cf54a91a377e168dc266faa
-modified: 1689839173126
+modified: 1690698860812
 created: 1686474142608
-url: "{{ _.host }}/cart-update/11"
+url: "{{ _.host }}/cart-update/2"
 name: cart-update
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
-  text: '{"quantity":60,"user_unique_id":"6133768","variant_id":30}'
+  text: '{"quantity":1,"user_unique_id":"GUEST-64c5faeff3224","product_combination_id":55}'
 parameters: []
 headers:
   - id: pair_910d84878be245a4947038e85d85729c

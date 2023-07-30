@@ -1,12 +1,12 @@
 _id: req_122669e60cfa4f6491ad2e23e11c9808
 type: Request
 parentId: fld_241d036d30574141a1ec4fa91a8acc0e
-modified: 1689839173117
+modified: 1690444070806
 created: 1686392818789
-url: "{{ _.admin_host }}/promocode-delete/1"
+url: "{{ _.admin_host }}/promocode-delete/16"
 name: promocode-delete
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
